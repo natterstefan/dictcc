@@ -10,9 +10,9 @@
     "compile-cjs": "tsc -p tsconfig.build.json --module commonjs --outDir dist/cjs",
     "compile-esm": "tsc -p tsconfig.build.json --module es2015 --outDir dist/esm",
     "compile-types": "tsc -p tsconfig.build.json --declaration --emitDeclarationOnly --outDir dist/types",
+    "prepare": "is-ci || husky install",
     "lint": "tsc && eslint --cache \".\"",
-    "test": "jest",
-    "prepare": "husky install"
+    "test": "jest"
   },
   "exports": {
     ".": {
@@ -54,11 +54,12 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
+    "husky": "^7.0.4",
+    "is-ci": "^3.0.1",
     "jest": "^27.5.1",
     "jest-preset-ns": "^1.1.0",
     "prettier": "^2.6.2",
-    "rimraf": "^3.0.2",
-    "husky": "^7.0.4"
+    "rimraf": "^3.0.2"
   },
   "repository": {
     "type": "git",
