@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 
 import { Languages } from './config'
 import { Translation, TranslationInput, TranslationResult } from './types'
-import { getTextMeta, getTranslatedText } from './utils'
+import { getDictccUrl, getTextMeta, getTranslatedText } from './utils'
 
 export default async ({
   fromLang,
@@ -24,10 +24,8 @@ export default async ({
   }
 
   try {
-    const url = new URL(`https://${fromLang}-${toLang}.dict.cc`)
-    url.searchParams.set('s', term)
-
-    const response = await fetch(url.href)
+    const url = getDictccUrl({ fromLang, toLang, term })
+    const response = await fetch(url)
     const body = await response.text()
 
     const $ = cheerio.load(body)
