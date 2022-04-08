@@ -1,0 +1,2374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
+Array [
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "jd. begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "sb. understood",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "jd. begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "understood",
+      ],
+      "text": "sb. grasped",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "jd. begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "sb. comprehended",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+        "Bedeutung, Gehalt, Konzept",
+      ],
+      "text": "Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "concept",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+        "Vorstellung, Konzept",
+      ],
+      "text": "Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "notion",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+        "Suchbegriff",
+      ],
+      "text": "Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "in encyclopedia etc.",
+      ],
+      "text": "item",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+        "Vorstellung, Idee",
+      ],
+      "text": "Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "idea",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "conception",
+      ],
+      "text": "perception",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+        "Vorstellung, Auffassung",
+      ],
+      "text": "Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "understanding",
+      ],
+      "text": "apprehension",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+        "Bedeutung, Gehalt, Konzept",
+      ],
+      "text": "Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "conception",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "abgeleiteter Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "derived term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "absoluter Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "philos. spec. absolute concept",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "abstrakter Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "abstract concept",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "abstrakter Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. abstract term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "angeborener Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "philos. innate concept",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Begriff  Monotheismus",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "relig. concept of monotheism",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "dehnbarer Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "easily extendable concept",
+      ],
+      "text": "elastic concept",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "dehnbarer Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. elastic term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "dehnbarer Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "loose concept",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "dehnbarer Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "malleable phrase",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "empirischer Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "philos. empirical concept",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+        "Fachbegriff",
+      ],
+      "text": "fachsprachlicher Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "technical term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "fester Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "characteristic expression",
+      ],
+      "text": "ling. byword",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "feststehender Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "econ. law ling. established term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Form-Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "philos. concept of form",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "geläufiger Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. household word",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "geschützter Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "protected term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "landwirtschaftlicher Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "agr. ling. agricultural term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "literarischer Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "lit. literary term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "medizinischer Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. med. medical term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "mehrdeutiger Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ambiguous concept",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+        "auch: Nihilismusbegriff",
+      ],
+      "text": "Nihilismus-Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "philos. concept of nihilism",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "NS-Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. Nazi term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "relativer Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. relative term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "schillernder Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. iridescent term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "stehender Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. standard term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "üblicher Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. commonly used term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "umfassender Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "term of wide comprehension",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "umgangssprachlicher Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. colloquial term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "umstrittener Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "controversial concept",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "veralteter Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "archaic term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+        "DIN 1463-1",
+      ],
+      "text": "verwandter Begriff  <VB>",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "ISO 1463-1",
+      ],
+      "text": "related term <RT>",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "langsam von Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "slow of mind",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "langsam von Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "idiom slow in the mind",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "langsam von Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "idiom slow in the uptake",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "Redewendung",
+      ],
+      "text": "langsam von Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "slow-witted",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "ugs.",
+        "Redewendung",
+      ],
+      "text": "langsam von Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+        "coll.",
+        "idiom",
+      ],
+      "text": "slow on the uptake",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "schwer von Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "idiom hard of understanding",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "schwer von Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+        "sl.",
+      ],
+      "text": "idiom thick as a brick",
+    },
+  },
+]
+`;
+
+exports[`dictcc returns de->en translations for the term "Österreichische Küche" 1`] = `
+Array [
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "österreichische Küche",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "gastr. Austrian cookery",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "österreichische Küche",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "gastr. Austrian cuisine",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "Österreichische Gesundheitskasse",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "Unverified austrian healthcare insurance",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "pl",
+      ],
+      "text": "(Österreichische) Bundesforste",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "state-owned woods in Austria",
+      ],
+      "text": "for.",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Bundeshymne",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "mus. pol. Austrian national anthem",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "pl",
+      ],
+      "text": "österreichische Gardinen",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "furn. textil. Austrian blinds",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "pl",
+      ],
+      "text": "österreichische Jalousien",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "furn. textil. Austrian blinds",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "österreichische Monarchie",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "hist. Austrian monarchy",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "pl",
+      ],
+      "text": "Österreichische Niederlande",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "geogr. hist. Austrian Netherlands",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Notariatskammer",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "law Austrian Chamber of Civil Law Notaries",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Postsparkasse",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "archi. hist. Austrian Postal Savings Bank",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "österreichische Verfassung",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "law Austrian constitution",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "pl",
+      ],
+      "text": "Österreichische Zentralalpen",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "geogr. Austrian Central Alps",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Gämswurz",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Doronicum austriacum, syn.: Doronicum austriacum f. austriacum",
+      ],
+      "text": "bot. T Austrian leopard's-bane / leopard's bane",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Gamswurz",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Doronicum austriacum, syn.: Doronicum austriacum f. austriacum",
+      ],
+      "text": "bot. T Austrian leopard's-bane / leopard's bane",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Glockenblume",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Campanula pulla",
+      ],
+      "text": "bot. T Austrian bellflower",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Glockenblume",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Campanula pulla",
+      ],
+      "text": "bot. T dark bellflower",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Heideschnecke",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "terrestrial snail in the family Hygromiidae",
+      ],
+      "text": "zool. T Helicopsis striata austriaca",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Hundskamille",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Cota austriaca, syn.: Anthemis austriaca",
+      ],
+      "text": "bot. T Austrian chamomile",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Hundskamille",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Cota austriaca, syn.: Anthemis austriaca",
+      ],
+      "text": "bot. T Austrian mayweed",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Königskerze",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Verbascum chaixii",
+      ],
+      "text": "bot. T nettle-leaf mullein",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Königskerze",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Verbascum chaixii",
+      ],
+      "text": "bot. T nettle-leaved mullein",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Kuckuckswespe",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Vespula austriaca",
+      ],
+      "text": "T cuckoo wasp",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Mehlbeere",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Sorbus austriaca",
+      ],
+      "text": "bot. T Austrian mountain ash",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Mehlbeere",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Sorbus austriaca",
+      ],
+      "text": "bot. T Austrian whitebeam",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Sumpfkresse",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Rorippa austriaca, syn.: Nasturtium austriacum",
+      ],
+      "text": "bot. T Austrian fieldcress / field cress",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Sumpfkresse",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Rorippa austriaca, syn.: Nasturtium austriacum",
+      ],
+      "text": "bot. T Austrian yellowcress / yellow cress",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Wolfsmilch",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Euphorbia austriaca",
+      ],
+      "text": "bot. T Austrian spurge",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Ärztekammer  <ÖÄK>",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "Austrian Medical Chamber",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Bundesarbeitskammer  <BAK>",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Br.",
+      ],
+      "text": "Austrian Federal Chamber of Labour",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "pl",
+      ],
+      "text": "Österreichische Bundesbahnen  <ÖBB>",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "sg",
+      ],
+      "text": "rail Austrian Federal Railway",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "pl",
+      ],
+      "text": "Österreichische Bundesbahnen  <ÖBB>",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "rail Austrian Federal Railways",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Gebärdensprache <ÖGS>",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. Austrian Sign Language",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Nationalbibliothek  <ÖNB>",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "libr. Austrian National Library <ÖNB>",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Raumordnungskonferenz  <ÖROK>",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "pol. Austrian Conference on Spatial Planning",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+        "Volkswirtschaftslehre",
+      ],
+      "text": "Österreichische Schule",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "acad. Austrian School of Economics",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Volkspartei  <ÖVP>",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "pol. Austrian People's Party",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "schweizerisch-österreichische Grenze",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "geogr. pol. Swiss-Austrian border",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "tschechisch-österreichische Grenze",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "geogr. pol. Czech-Austrian border",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+        "Süßwasserschneckenart",
+      ],
+      "text": "Österreichische Quellschnecke",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Bythinella austriaca austriaca",
+        "freshwater snail in the family Amnicolidae",
+      ],
+      "text": "zool. T Bythinella austriaca",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+        "Süßwasserschneckenart",
+      ],
+      "text": "Österreichische Zwergquellschnecke",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Bythinella austriaca austriaca",
+        "freshwater snail in the family Amnicolidae",
+      ],
+      "text": "zool. T Bythinella austriaca",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Neue Österreichische Tunnelbauweise  <NÖT>",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "New Austrian Tunnelling Method <NATM>",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "die österreichische Staatsbürgerschaft erhalten",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "to become an Austrian citizen",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Akademie  der Wissenschaften <ÖAW>",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "acad. Austrian Academy of Sciences",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Hochschülerinnen- und Hochschülerschaft  <ÖH>",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "educ. law Austrian National Union of Students federal body of Representatives",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "pl",
+        "19./frühes 20. Jh.",
+      ],
+      "text": "österreichische Reichsstraßen",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "Br.",
+        "19th/early 20th c.",
+      ],
+      "text": "hist. Austrian Imperial A-roads",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "n",
+      ],
+      "text": "Institut  für Österreichische Dialekt- und Namenlexika <DINAMLEX>",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. Institute for Lexicography of Austrian Dialects and Names",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Agentur  für Gesundheit und Ernährungssicherheit <AGES>",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "admin. med. pharm. Austrian Agency for Health and Food Safety",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+        "bis 1918",
+      ],
+      "text": "österreichische Sendung  auf dem Balkan",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "before 1918",
+      ],
+      "text": "hist. Austrian mission on the Balkans",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Österreichische Gesellschaft  für Mund-, Kiefer- und Gesichtschirurgie <ÖGMKG>",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "dent. Austrian Association of Oral and Maxillofacial Surgery",
+    },
+  },
+]
+`;
+
+exports[`dictcc returns de->fr translations for the term "Begriff" 1`] = `
+Array [
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "Wort",
+        "m",
+      ],
+      "text": "Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+        "Vorstellung",
+      ],
+      "text": "Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "notion",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+        "ugs.",
+        "Ausdruck, Wort",
+      ],
+      "text": "Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "vocable",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "nur prädikativ",
+        "ugs.",
+        "pej.",
+      ],
+      "text": "schwer von Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "à l'esprit lent",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "ugs.",
+      ],
+      "text": "schwer von Begriff sein",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "verbe",
+        "fam.",
+      ],
+      "text": "être long à la détente",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "im Begriff sein, etw. zu tun",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "verbe",
+      ],
+      "text": "s'apprêter à faire qc.",
+    },
+  },
+]
+`;
+
+exports[`dictcc returns en->de translations for the term "term" 1`] = `
+Array [
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "befristet",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+        "limited in time",
+      ],
+      "text": "term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "benennen",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "to term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "bezeichnen",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "to term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "benennen, bezeichnen",
+      ],
+      "text": "etw.Akk. nennen",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "to term sth.",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Begriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Zeitdauer",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "length of time",
+      ],
+      "text": "term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "n",
+      ],
+      "text": "Semester",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "educ. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Bedingung",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "condition",
+      ],
+      "text": "term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Ausdruck",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "n",
+      ],
+      "text": "Trimester",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "acad. educ. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Amtszeit",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "pol. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Legislaturperiode",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "pol. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Termin",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "fixed date",
+      ],
+      "text": "term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Bezeichnung",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "designation",
+      ],
+      "text": "ling. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Dauer",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "duration",
+      ],
+      "text": "term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Fachbegriff",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Frist",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "time limit, period",
+      ],
+      "text": "term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Laufzeit",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "period of validity, running time etc.",
+      ],
+      "text": "term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Klausel",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "clause, proviso",
+      ],
+      "text": "law term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+        "in Verträgen",
+      ],
+      "text": "Bestimmung",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "in a contract or treaty",
+      ],
+      "text": "law term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Freiheitsstrafe",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "prison term",
+      ],
+      "text": "law term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Fachausdruck",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "technical, specialist",
+      ],
+      "text": "ling. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Term",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "math. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Terminus",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "ling. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+        "eines Gerichts",
+      ],
+      "text": "Sitzungsperiode",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "law term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Geburtstermin",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "med. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Saison",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "sports term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+        "Saison",
+      ],
+      "text": "Spielzeit",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "sports term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+        "ohne Phallus",
+      ],
+      "text": "Herme",
+    },
+    "translateTo": Object {
+      "meta": undefined,
+      "text": "archi. art term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "n",
+      ],
+      "text": "Begriffselement",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "part of a definition, explanation",
+      ],
+      "text": "term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "n",
+        "in einer Gleichung",
+      ],
+      "text": "Glied",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "in an equation",
+      ],
+      "text": "math. term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "z. B. Wehentätigkeit, Sektio",
+      ],
+      "text": "... am Termin",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adv",
+        "e.g. labor, C-section",
+      ],
+      "text": "med. ... at term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "befristet",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "fixed-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "nachgestellt",
+      ],
+      "text": "mit fester Laufzeit",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "fixed-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "mittelfristig",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "fin. intermediate-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "nachhaltig",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "long term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "langfristig",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "long-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "Langzeit-",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "long-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "langzeitig",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "long-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "auf lange Dauer angelegt",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "long-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "langjährig",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+        "over a period of years",
+      ],
+      "text": "long-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "längerfristig",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "longer-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "mittelfristig",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "medium-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "nachgestellt",
+      ],
+      "text": "von mittlerer Laufzeit",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "medium-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "in der Mitte der Laufzeit",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "mid-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "mittelfristig",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "middle-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "kurzfristig",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "near-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "nahe an der Fälligkeit",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "near-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "die unmittelbaren Zukunft betreffend",
+      ],
+      "text": "zeitnah",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+        "attr.",
+        "for, covering, or involving the very near future",
+      ],
+      "text": "near-term",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "schweiz.",
+        "z. B. nähige Kuh, nähiges Rind",
+      ],
+      "text": "nähig",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+        "cow",
+      ],
+      "text": "VetMed. zool. near-term",
+    },
+  },
+]
+`;
+
+exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
+Array [
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "Wort",
+        "m",
+      ],
+      "text": "Begriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "n",
+      ],
+      "text": "Ende",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "m",
+        "fin",
+      ],
+      "text": "terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Ausdruck",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "m",
+        "mot",
+      ],
+      "text": "ling. terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "auf Dauer",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adv",
+      ],
+      "text": "à terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "auf Termin",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adv",
+      ],
+      "text": "à terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "nach Ablauf",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adv",
+      ],
+      "text": "au terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "zu früh",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adv",
+      ],
+      "text": "avant terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "n",
+      ],
+      "text": "Kosewort",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "terme  d'affection",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Gattungsbegriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "terme  générique",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Oberbegriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "terme  générique",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "n",
+      ],
+      "text": "Schimpfwort",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "terme  insultant",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Fachausdruck",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "terme  technique",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "Fachbegriff",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "m",
+      ],
+      "text": "terme  technique",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "kurzfristig",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adv",
+      ],
+      "text": "à court terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "Kurzzeit-",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj",
+      ],
+      "text": "à court terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "langfristig",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj adv",
+      ],
+      "text": "à long terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "auf lange Sicht",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adv",
+      ],
+      "text": "à long terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "mittelfristig",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adj adv",
+      ],
+      "text": "à moyen terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "nach etw.Dat.",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adv",
+      ],
+      "text": "au terme de qc.",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "am Ende von etw.Dat.",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "adv",
+      ],
+      "text": "au terme de qc.",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "etw.Akk. beenden",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "verbe",
+      ],
+      "text": "mettre un terme à qc.",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "geh.",
+        "ein Ende setzen",
+      ],
+      "text": "etw.Dat. Einhalt gebieten",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "verbe",
+      ],
+      "text": "mettre un terme à qc.",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "n",
+      ],
+      "text": "Kurzzeitgedächtnis",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "méd. mémoire  à court terme <MCT>",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "n",
+      ],
+      "text": "Langzeitgedächtnis",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "méd. mémoire  à long terme <MLT>",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "Langzeitanwendung",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "f",
+      ],
+      "text": "méd. pharm. utilisation  à long terme",
+    },
+  },
+  Object {
+    "translateFrom": Object {
+      "meta": undefined,
+      "text": "die Rezession in den Griff bekommen",
+    },
+    "translateTo": Object {
+      "meta": Array [
+        "verbe",
+      ],
+      "text": "mettre un terme à la récession",
+    },
+  },
+]
+`;

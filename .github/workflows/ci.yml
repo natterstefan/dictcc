@@ -1,0 +1,38 @@
+name: Node CI
+
+on:
+  # Trigger the workflow manually via the GitHub UI
+  workflow_dispatch:
+  # Trigger the workflow when a pull_request's activity type is opened,
+  # synchronize, or reopened.
+  pull_request:
+  # Trigger the workflow on push
+  push:
+    branches:
+      - main
+  schedule:
+    # Runs "At 05:00 every day." (see https://crontab.guru/#0_05_*_*_*)
+    - cron: "0 05 * * *"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: "yarn"
+
+      - uses: bahmutov/npm-install@37d870e488074d1a5810ffe9256ebdd81530ab72
+        with:
+          install-command:
+            yarn --prefer-offline --frozen-lockfile --no-progress --silent
+
+      - run: yarn lint
+      - run: yarn test

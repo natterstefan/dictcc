@@ -1,0 +1,46 @@
+name: release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: "yarn"
+
+      - uses: bahmutov/npm-install@37d870e488074d1a5810ffe9256ebdd81530ab72
+        with:
+          install-command:
+            yarn --prefer-offline --frozen-lockfile --no-progress --silent
+
+      - run: yarn lint
+      - run: yarn test
+
+  publish:
+    needs: validate
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: "yarn"
+
+      - uses: bahmutov/npm-install@37d870e488074d1a5810ffe9256ebdd81530ab72
+        with:
+          install-command:
+            yarn --prefer-offline --frozen-lockfile --no-progress --silent
+
+      - run: yarn build
+      - run: yarn semantic-release
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
