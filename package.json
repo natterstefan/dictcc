@@ -26,6 +26,12 @@
     "LICENSE",
     "README.md"
   ],
+  "keywords": [
+    "dictcc",
+    "dict.cc",
+    "translation",
+    "i18n"
+  ],
   "homepage": "https://github.com/natterstefan/dictcc#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
