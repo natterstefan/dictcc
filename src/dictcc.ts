@@ -13,14 +13,14 @@ export default async (
   data: TranslationResult[] | undefined
   error: Error | undefined
 }> => {
-  const { fromLanguage, toLanguage, term } = input
+  const { sourceLanguage, targetLanguage, term } = input
 
   // this should ideally never happen as the input is typed.
-  if (!Languages[fromLanguage] || !Languages[toLanguage]) {
+  if (!Languages[sourceLanguage] || !Languages[targetLanguage]) {
     return {
       data: undefined,
       error: new Error(
-        `The language ${fromLanguage} or ${toLanguage} is not supported!`,
+        `The language ${sourceLanguage} or ${targetLanguage} is not supported!`,
       ),
     }
   }

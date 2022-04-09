@@ -6,32 +6,56 @@ import translate, { Languages } from '..'
 describe('dictcc', () => {
   it.each<TranslationInput>([
     {
-      fromLanguage: Languages.de,
-      toLanguage: Languages.en,
+      sourceLanguage: Languages.de,
+      targetLanguage: Languages.en,
       term: 'Begriff',
     },
-    { fromLanguage: Languages.de, toLanguage: Languages.es, term: 'Begriff' },
-    { fromLanguage: Languages.de, toLanguage: Languages.fr, term: 'Begriff' },
-    { fromLanguage: Languages.de, toLanguage: Languages.ro, term: 'Begriff' },
+    {
+      sourceLanguage: Languages.de,
+      targetLanguage: Languages.es,
+      term: 'Begriff',
+    },
+    {
+      sourceLanguage: Languages.de,
+      targetLanguage: Languages.fr,
+      term: 'Begriff',
+    },
+    {
+      sourceLanguage: Languages.de,
+      targetLanguage: Languages.ro,
+      term: 'Begriff',
+    },
 
     {
-      fromLanguage: Languages.de,
-      toLanguage: Languages.en,
+      sourceLanguage: Languages.de,
+      targetLanguage: Languages.en,
       term: 'Abkürzung',
     },
 
     {
-      fromLanguage: Languages.de,
-      toLanguage: Languages.en,
+      sourceLanguage: Languages.de,
+      targetLanguage: Languages.en,
       term: 'österreichisch',
     },
 
-    { fromLanguage: Languages.en, toLanguage: Languages.de, term: 'term' },
-    { fromLanguage: Languages.en, toLanguage: Languages.de, term: 'Tuesday' },
+    {
+      sourceLanguage: Languages.en,
+      targetLanguage: Languages.de,
+      term: 'term',
+    },
+    {
+      sourceLanguage: Languages.en,
+      targetLanguage: Languages.de,
+      term: 'Tuesday',
+    },
 
-    { fromLanguage: Languages.fr, toLanguage: Languages.de, term: 'terme' },
+    {
+      sourceLanguage: Languages.fr,
+      targetLanguage: Languages.de,
+      term: 'terme',
+    },
   ])(
-    'returns $fromLanguage->$toLanguage translations for the term "$term"',
+    'returns $sourceLanguage->$targetLanguage translations for the term "$term"',
     async input => {
       const { data, error } = await translate(input)
       expect({ url: createDictccUrl(input), data, error }).toMatchSnapshot()
@@ -40,12 +64,12 @@ describe('dictcc', () => {
 
   it.each<TranslationInput>([
     {
-      fromLanguage: Languages.de,
-      toLanguage: Languages.fi,
+      sourceLanguage: Languages.de,
+      targetLanguage: Languages.fi,
       term: 'hello',
     },
   ])(
-    'handles response for translation request with incorrect word (e.g. $fromLanguage->$toLanguage with "$term")',
+    'handles response for translation request with incorrect word (e.g. $sourceLanguage->$targetLanguage with "$term")',
     async input => {
       const { data, error } = await translate(input)
       expect(data).toMatchSnapshot()
@@ -54,20 +78,28 @@ describe('dictcc', () => {
   )
 
   it.each<TranslationInput>([
-    { fromLanguage: 'asdf' as any, toLanguage: Languages.de, term: 'Begriff' },
-    { fromLanguage: Languages.de, toLanguage: 'asdf' as any, term: 'Begriff' },
+    {
+      sourceLanguage: 'asdf' as any,
+      targetLanguage: Languages.de,
+      term: 'Begriff',
+    },
+    {
+      sourceLanguage: Languages.de,
+      targetLanguage: 'asdf' as any,
+      term: 'Begriff',
+    },
   ])(
-    'return error for $fromLanguage->$toLanguage translations',
-    async ({ fromLanguage, toLanguage, term }) => {
+    'return error for $sourceLanguage->$targetLanguage translations',
+    async ({ sourceLanguage, targetLanguage, term }) => {
       const { data, error } = await translate({
-        fromLanguage,
-        toLanguage,
+        sourceLanguage,
+        targetLanguage,
         term,
       })
       expect(data).toBeUndefined()
       expect(error).toBeInstanceOf(Error)
       expect(error?.message).toBe(
-        `The language ${fromLanguage} or ${toLanguage} is not supported!`,
+        `The language ${sourceLanguage} or ${targetLanguage} is not supported!`,
       )
     },
   )

@@ -5,15 +5,15 @@ import { Translation, TranslationInput } from './types'
 import { getTextMeta, getTranslatedText } from './utils'
 
 export const createDictccUrl = ({
-  fromLanguage,
-  toLanguage,
+  sourceLanguage,
+  targetLanguage,
   term,
 }: TranslationInput) => {
   /**
    * https://de-en.dict.cc?s=Begriff: translates de -> en
    * http://deen.dict.cc?s=Begriff: translates in both directions
    */
-  const url = new URL(`https://${fromLanguage}${toLanguage}.dict.cc`)
+  const url = new URL(`https://${sourceLanguage}${targetLanguage}.dict.cc`)
   url.searchParams.set('s', term)
 
   return url.href

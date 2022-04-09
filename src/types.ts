@@ -15,7 +15,7 @@ export type TranslationResult = {
 }
 
 export type TranslationInput = {
-  fromLanguage: Languages
-  toLanguage: Languages
+  sourceLanguage: Languages
+  targetLanguage: Languages
   term: string
 }

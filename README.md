@@ -23,8 +23,8 @@ yarn add dictcc
 
 ```js
 /**
- * `translate` translates a `term` from a language (`fromLanguage`) into another
- * language (`toLanguage`).
+ * `translate` translates a `term` from a language (`sourceLanguage`) into another
+ * language (`targetLanguage`).
  *
  *  `Languages` represents supported languages
  */
@@ -32,8 +32,8 @@ import translate, { Languages } from 'dictcc'
 
 const getTranslation = async () => {
   const { data, error } = await translate({
-    fromLanguage: Languages.en,
-    toLanguage: Languages.de,
+    sourceLanguage: Languages.en,
+    targetLanguage: Languages.de,
     term: 'home',
   })
 
@@ -41,7 +41,7 @@ const getTranslation = async () => {
 }
 ```
 
-The result looks similar to this:
+A result looks something like this:
 
 ```json
 [
@@ -65,7 +65,6 @@ The result looks similar to this:
       }
     }
   }
-  /** and more ... */
 ]
 ```
 
