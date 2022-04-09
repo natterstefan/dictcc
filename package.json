@@ -1,6 +1,6 @@
 {
   "name": "dictcc",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Unofficial dict.cc translation client",
   "author": "Stefan Natter (https://natterstefan.me/)",
   "license": "MIT",

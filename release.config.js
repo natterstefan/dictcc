@@ -3,19 +3,9 @@ module.exports = {
   preset: 'conventionalcommits',
   plugins: [
     // verify commits
-    [
-      '@semantic-release/commit-analyzer',
-      {
-        preset: 'conventionalcommits',
-      },
-    ],
+    '@semantic-release/commit-analyzer',
     // generate release notes
-    [
-      '@semantic-release/release-notes-generator',
-      {
-        preset: 'conventionalcommits',
-      },
-    ],
+    '@semantic-release/release-notes-generator',
     // generate CHANGELOG.md
     [
       '@semantic-release/changelog',
