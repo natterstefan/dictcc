@@ -23,7 +23,7 @@ describe('dictcc', () => {
     {
       fromLanguage: Languages.de,
       toLanguage: Languages.en,
-      term: 'Österreichische Küche',
+      term: 'österreichisch',
     },
 
     { fromLanguage: Languages.en, toLanguage: Languages.de, term: 'term' },

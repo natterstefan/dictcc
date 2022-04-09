@@ -1588,829 +1588,33 @@ Object {
 }
 `;
 
-exports[`dictcc returns de->en translations for the term "Österreichische Küche" 1`] = `
+exports[`dictcc returns de->en translations for the term "österreichisch" 1`] = `
 Object {
   "data": Array [
     Object {
       "translateFrom": Object {
         "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "österreichische Küche",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian cookery",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "österreichische Küche",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian cuisine",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Österreichische Gesundheitskasse",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Unverified austrian healthcare insurance",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [
-            "Österreichische",
-          ],
-          "wordClassDefinitions": Array [
-            "pl",
-          ],
-        },
-        "text": "Bundesforste",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "state-owned woods in Austria",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Bundeshymne",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian national anthem",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "pl",
-          ],
-        },
-        "text": "österreichische Gardinen",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian blinds",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "pl",
-          ],
-        },
-        "text": "österreichische Jalousien",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian blinds",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "österreichische Monarchie",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian monarchy",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "pl",
-          ],
-        },
-        "text": "Österreichische Niederlande",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian Netherlands",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Notariatskammer",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian Chamber of Civil Law Notaries",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Postsparkasse",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian Postal Savings Bank",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "österreichische Verfassung",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian constitution",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "pl",
-          ],
-        },
-        "text": "Österreichische Zentralalpen",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian Central Alps",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Gämswurz",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Doronicum austriacum, syn.: Doronicum austriacum f. austriacum",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian leopard's-bane / leopard's bane",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Gamswurz",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Doronicum austriacum, syn.: Doronicum austriacum f. austriacum",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian leopard's-bane / leopard's bane",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Glockenblume",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Campanula pulla",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian bellflower",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Glockenblume",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Campanula pulla",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "dark bellflower",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Heideschnecke",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "terrestrial snail in the family Hygromiidae",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Helicopsis striata austriaca",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Hundskamille",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Cota austriaca, syn.: Anthemis austriaca",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian chamomile",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Hundskamille",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Cota austriaca, syn.: Anthemis austriaca",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian mayweed",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Königskerze",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Verbascum chaixii",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "nettle-leaf mullein",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Königskerze",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Verbascum chaixii",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "nettle-leaved mullein",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Kuckuckswespe",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Vespula austriaca",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "cuckoo wasp",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Mehlbeere",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Sorbus austriaca",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian mountain ash",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Mehlbeere",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Sorbus austriaca",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian whitebeam",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Sumpfkresse",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Rorippa austriaca, syn.: Nasturtium austriacum",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian fieldcress / field cress",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Sumpfkresse",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Rorippa austriaca, syn.: Nasturtium austriacum",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian yellowcress / yellow cress",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Wolfsmilch",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Euphorbia austriaca",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian spurge",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
           "abbreviations": Array [
-            "ÖÄK",
+            "österr.",
           ],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Ärztekammer",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
           "comments": Array [],
           "optionalData": Array [],
           "wordClassDefinitions": Array [],
         },
-        "text": "Austrian Medical Chamber",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [
-            "BAK",
-          ],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Bundesarbeitskammer",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Br.",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian Federal Chamber of Labour",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [
-            "ÖBB",
-          ],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "pl",
-          ],
-        },
-        "text": "Österreichische Bundesbahnen",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "sg",
-          ],
-        },
-        "text": "Austrian Federal Railway",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [
-            "ÖBB",
-          ],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "pl",
-          ],
-        },
-        "text": "Österreichische Bundesbahnen",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian Federal Railways",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [
-            "ÖGS",
-          ],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Gebärdensprache",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian Sign Language",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [
-            "ÖNB",
-          ],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Nationalbibliothek",
+        "text": "österreichisch",
       },
       "translateTo": Object {
         "meta": Object {
           "abbreviations": Array [
-            "ÖNB",
-          ],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian National Library",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [
-            "ÖROK",
+            "Aus.",
           ],
           "comments": Array [],
           "optionalData": Array [],
           "wordClassDefinitions": Array [
-            "f",
+            "adj",
           ],
         },
-        "text": "Österreichische Raumordnungskonferenz",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian Conference on Spatial Planning",
+        "text": "Austrian",
       },
     },
     Object {
@@ -2418,14 +1622,14 @@ Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
-            "Volkswirtschaftslehre",
+            "ugs.",
           ],
           "optionalData": Array [],
           "wordClassDefinitions": Array [
-            "f",
+            "n",
           ],
         },
-        "text": "Österreichische Schule",
+        "text": "Österreichisch",
       },
       "translateTo": Object {
         "meta": Object {
@@ -2434,31 +1638,7 @@ Object {
           "optionalData": Array [],
           "wordClassDefinitions": Array [],
         },
-        "text": "Austrian School of Economics",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [
-            "ÖVP",
-          ],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Volkspartei",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian People's Party",
+        "text": "Austrian German",
       },
     },
     Object {
@@ -2467,20 +1647,20 @@ Object {
           "abbreviations": Array [],
           "comments": Array [],
           "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
+          "wordClassDefinitions": Array [],
         },
-        "text": "schweizerisch-österreichische Grenze",
+        "text": "alt-österreichisch",
       },
       "translateTo": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
           "optionalData": Array [],
-          "wordClassDefinitions": Array [],
+          "wordClassDefinitions": Array [
+            "adj",
+          ],
         },
-        "text": "Swiss-Austrian border",
+        "text": "old Austrian",
       },
     },
     Object {
@@ -2489,20 +1669,64 @@ Object {
           "abbreviations": Array [],
           "comments": Array [],
           "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
+          "wordClassDefinitions": Array [],
         },
-        "text": "tschechisch-österreichische Grenze",
+        "text": "böhmisch-österreichisch",
       },
       "translateTo": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
           "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "adj",
+          ],
+        },
+        "text": "Bohemian-Austrian",
+      },
+    },
+    Object {
+      "translateFrom": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
           "wordClassDefinitions": Array [],
         },
-        "text": "Czech-Austrian border",
+        "text": "deutsch-österreichisch",
+      },
+      "translateTo": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "adj",
+          ],
+        },
+        "text": "German-Austrian",
+      },
+    },
+    Object {
+      "translateFrom": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "österreichisch-italienisch",
+      },
+      "translateTo": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "adj",
+          ],
+        },
+        "text": "Austro-Italian",
       },
     },
     Object {
@@ -2510,189 +1734,38 @@ Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
-            "Süßwasserschneckenart",
+            "1867-1918",
           ],
           "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
+          "wordClassDefinitions": Array [],
         },
-        "text": "Österreichische Quellschnecke",
+        "text": "österreichisch-ungarisch",
       },
       "translateTo": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
-            "Bythinella austriaca austriaca",
-            "freshwater snail in the family Amnicolidae",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Bythinella austriaca",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Süßwasserschneckenart",
+            "1867-1918",
           ],
           "optionalData": Array [],
           "wordClassDefinitions": Array [
-            "f",
+            "adj",
           ],
         },
-        "text": "Österreichische Zwergquellschnecke",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Bythinella austriaca austriaca",
-            "freshwater snail in the family Amnicolidae",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Bythinella austriaca",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [
-            "NÖT",
-          ],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Neue Österreichische Tunnelbauweise",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [
-            "NATM",
-          ],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "New Austrian Tunnelling Method",
+        "text": "Austro-Hungarian",
       },
     },
     Object {
       "translateFrom": Object {
         "meta": Object {
           "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "die österreichische Staatsbürgerschaft erhalten",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "to become an Austrian citizen",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [
-            "ÖAW",
-          ],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Akademie  der Wissenschaften",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian Academy of Sciences",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [
-            "ÖH",
-          ],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Hochschülerinnen- und Hochschülerschaft",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian National Union of Students federal body of Representatives",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "19./frühes 20. Jh.",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "pl",
-          ],
-        },
-        "text": "österreichische Reichsstraßen",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
-            "Br.",
-            "19th/early 20th c.",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian Imperial A-roads",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [
-            "DINAMLEX",
-          ],
           "comments": Array [],
           "optionalData": Array [],
           "wordClassDefinitions": Array [
             "n",
           ],
         },
-        "text": "Institut  für Österreichische Dialekt- und Namenlexika",
+        "text": "Bairisch-Österreichisch",
       },
       "translateTo": Object {
         "meta": Object {
@@ -2701,14 +1774,212 @@ Object {
           "optionalData": Array [],
           "wordClassDefinitions": Array [],
         },
-        "text": "Institute for Lexicography of Austrian Dialects and Names",
+        "text": "Austro-Bavarian",
+      },
+    },
+    Object {
+      "translateFrom": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "n",
+          ],
+        },
+        "text": "Österreichisch-Schlesien",
+      },
+      "translateTo": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "Austrian Silesia",
+      },
+    },
+    Object {
+      "translateFrom": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "f",
+          ],
+        },
+        "text": "österreichisch-deutsche Grenze",
+      },
+      "translateTo": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "Austro-German border",
+      },
+    },
+    Object {
+      "translateFrom": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "f",
+          ],
+        },
+        "text": "österreichisch-italienische Grenze",
+      },
+      "translateTo": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "Austro-Italian border",
+      },
+    },
+    Object {
+      "translateFrom": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "f",
+          ],
+        },
+        "text": "österreichisch-slowenische Grenze",
+      },
+      "translateTo": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "Austro-Slovenian border",
+      },
+    },
+    Object {
+      "translateFrom": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "f",
+          ],
+        },
+        "text": "österreichisch-tschechische Grenze",
+      },
+      "translateTo": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "Austrian-Czech border",
+      },
+    },
+    Object {
+      "translateFrom": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "f",
+          ],
+        },
+        "text": "österreichisch-tschechische Grenze",
+      },
+      "translateTo": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "Austro-Czech border",
+      },
+    },
+    Object {
+      "translateFrom": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "f",
+          ],
+        },
+        "text": "österreichisch-ungarische Doppelmonarchie",
+      },
+      "translateTo": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "Austro-Hungarian dual monarchy",
+      },
+    },
+    Object {
+      "translateFrom": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "f",
+          ],
+        },
+        "text": "österreichisch-ungarische Grenze",
+      },
+      "translateTo": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "Austro-Hungarian border",
+      },
+    },
+    Object {
+      "translateFrom": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "f",
+          ],
+        },
+        "text": "österreichisch-ungarische Monarchie",
+      },
+      "translateTo": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "Austro-Hungarian monarchy",
       },
     },
     Object {
       "translateFrom": Object {
         "meta": Object {
           "abbreviations": Array [
-            "AGES",
+            "k. u. k.",
           ],
           "comments": Array [],
           "optionalData": Array [],
@@ -2716,7 +1987,7 @@ Object {
             "f",
           ],
         },
-        "text": "Österreichische Agentur  für Gesundheit und Ernährungssicherheit",
+        "text": "Österreichisch-Ungarische Monarchie",
       },
       "translateTo": Object {
         "meta": Object {
@@ -2725,62 +1996,36 @@ Object {
           "optionalData": Array [],
           "wordClassDefinitions": Array [],
         },
-        "text": "Austrian Agency for Health and Food Safety",
+        "text": "Austro-Hungarian Empire",
       },
     },
     Object {
       "translateFrom": Object {
         "meta": Object {
           "abbreviations": Array [],
-          "comments": Array [
-            "bis 1918",
-          ],
+          "comments": Array [],
           "optionalData": Array [],
           "wordClassDefinitions": Array [
-            "f",
+            "m",
           ],
         },
-        "text": "österreichische Sendung  auf dem Balkan",
+        "text": "Österreichisch-Ungarischer Ausgleich",
       },
       "translateTo": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
-            "before 1918",
+            "1867",
           ],
           "optionalData": Array [],
           "wordClassDefinitions": Array [],
         },
-        "text": "Austrian mission on the Balkans",
-      },
-    },
-    Object {
-      "translateFrom": Object {
-        "meta": Object {
-          "abbreviations": Array [
-            "ÖGMKG",
-          ],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Österreichische Gesellschaft  für Mund-, Kiefer- und Gesichtschirurgie",
-      },
-      "translateTo": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "Austrian Association of Oral and Maxillofacial Surgery",
+        "text": "Austro-Hungarian Compromise",
       },
     },
   ],
   "error": undefined,
-  "url": "https://deen.dict.cc/?s=%C3%96sterreichische+K%C3%BCche",
+  "url": "https://deen.dict.cc/?s=%C3%B6sterreichisch",
 }
 `;
 
