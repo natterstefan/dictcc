@@ -1,6 +1,13 @@
-import { Languages } from './config'
+import { Languages } from './languages'
 
-export type Translation = { text: string; meta: string[] | undefined }
+export type TextMetaResult = {
+  abbreviations: string[]
+  comments: string[]
+  optionalData: string[]
+  wordClassDefinitions: string[]
+}
+
+export type Translation = { text: string; meta: TextMetaResult }
 
 export type TranslationResult = {
   translateFrom: Translation
@@ -8,7 +15,7 @@ export type TranslationResult = {
 }
 
 export type TranslationInput = {
-  fromLang: Languages
-  toLang: Languages
+  fromLanguage: Languages
+  toLanguage: Languages
   term: string
 }

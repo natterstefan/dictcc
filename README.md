@@ -4,6 +4,7 @@
 [![Node CI](https://github.com/natterstefan/dictcc/actions/workflows/ci.yml/badge.svg)](https://github.com/natterstefan/dictcc/actions/workflows/ci.yml)
 [![GitHub issues](https://img.shields.io/github/issues/natterstefan/dictcc)](https://github.com/natterstefan/dictcc/issues)
 [![GitHub license](https://img.shields.io/github/license/natterstefan/dictcc)](https://github.com/natterstefan/dictcc/blob/main/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/natterstefan/dictcc/issues/new/choose)
 
 `dictcc` is a client for the [dict.cc](https://dict.cc/) dictionary service. It
 returns a list of translations for a given term for a given source and target

@@ -1,56 +1,60 @@
-import cheerio from 'cheerio'
-import fetch from 'node-fetch'
+import { Languages } from './languages'
+import {
+  getHtmlString,
+  getTranslationsColumns,
+  getTranslationsArray,
+} from './parser'
+import { TranslationInput, TranslationResult } from './types'
+import { prepareData } from './utils'
 
-import { Languages } from './config'
-import { Translation, TranslationInput, TranslationResult } from './types'
-import { getDictccUrl, getTextMeta, getTranslatedText } from './utils'
-
-export default async ({
-  fromLang,
-  toLang,
-  term,
-}: TranslationInput): Promise<{
+export default async (
+  input: TranslationInput,
+): Promise<{
   data: TranslationResult[] | undefined
   error: Error | undefined
 }> => {
+  const { fromLanguage, toLanguage, term } = input
+
   // this should ideally never happen as the input is typed.
-  if (!Languages[fromLang] || !Languages[toLang]) {
+  if (!Languages[fromLanguage] || !Languages[toLanguage]) {
     return {
       data: undefined,
       error: new Error(
-        `Either ${fromLang} or ${toLang} value is not supported!`,
+        `The language ${fromLanguage} or ${toLanguage} is not supported!`,
       ),
     }
   }
 
   try {
-    const url = getDictccUrl({ fromLang, toLang, term })
-    const response = await fetch(url)
-    const body = await response.text()
+    const body = await getHtmlString(input)
+    const translations = getTranslationsArray(body)
 
-    const $ = cheerio.load(body)
-    const translateFrom: Translation[] = []
-    const translateTo: Translation[] = []
-
-    $('td.td7nl').each((i, elem) => {
-      const rawText = $(elem).text()
-      const text = getTranslatedText(rawText)
-      const meta = getTextMeta(rawText)
-
-      if (i % 2 === 0) {
-        // right column
-        translateTo.push({ text, meta })
-      } else {
-        // left column
-        translateFrom.push({ text, meta })
+    /**
+     * There are no translations available for this term in the given languages.
+     */
+    if (!translations[0] || !translations[1]) {
+      return {
+        data: [],
+        error: undefined,
       }
-    })
+    }
+
+    const { translationsLeft, translationsRight } = getTranslationsColumns(body)
+
+    /**
+     * Sometimes the from-translation is in the right-column and sometimes
+     * it is in the left-column. We determine which one is which by looking
+     * up the search term in the list of translated words.
+     */
+    let data
+    if (translations[0].includes(term)) {
+      data = prepareData(translationsRight, translationsLeft)
+    } else {
+      data = prepareData(translationsLeft, translationsRight)
+    }
 
     return {
-      data: translateFrom.map((element, index) => ({
-        translateFrom: element,
-        translateTo: translateTo[index],
-      })),
+      data,
       error: undefined,
     }
   } catch (error) {
