@@ -1,38 +1,73 @@
+import { createDictccUrl } from '@/parser'
+import { TranslationInput } from '@/types'
+
 import translate, { Languages } from '..'
 
-type Data = { fromLang: Languages; toLang: Languages; term: string }
-
 describe('dictcc', () => {
-  it.each<Data>([
-    { fromLang: Languages.de, toLang: Languages.en, term: 'Begriff' },
+  it.each<TranslationInput>([
     {
-      fromLang: Languages.de,
-      toLang: Languages.en,
+      fromLanguage: Languages.de,
+      toLanguage: Languages.en,
+      term: 'Begriff',
+    },
+    { fromLanguage: Languages.de, toLanguage: Languages.es, term: 'Begriff' },
+    { fromLanguage: Languages.de, toLanguage: Languages.fr, term: 'Begriff' },
+    { fromLanguage: Languages.de, toLanguage: Languages.ro, term: 'Begriff' },
+
+    {
+      fromLanguage: Languages.de,
+      toLanguage: Languages.en,
+      term: 'Abkürzung',
+    },
+
+    {
+      fromLanguage: Languages.de,
+      toLanguage: Languages.en,
       term: 'Österreichische Küche',
     },
-    { fromLang: Languages.de, toLang: Languages.fr, term: 'Begriff' },
-    { fromLang: Languages.en, toLang: Languages.de, term: 'term' },
-    { fromLang: Languages.fr, toLang: Languages.de, term: 'terme' },
+
+    { fromLanguage: Languages.en, toLanguage: Languages.de, term: 'term' },
+    { fromLanguage: Languages.en, toLanguage: Languages.de, term: 'Tuesday' },
+
+    { fromLanguage: Languages.fr, toLanguage: Languages.de, term: 'terme' },
   ])(
-    'returns $fromLang->$toLang translations for the term "$term"',
-    async ({ fromLang, toLang, term }) => {
-      const { data, error } = await translate({ fromLang, toLang, term })
+    'returns $fromLanguage->$toLanguage translations for the term "$term"',
+    async input => {
+      const { data, error } = await translate(input)
+      expect({ url: createDictccUrl(input), data, error }).toMatchSnapshot()
+    },
+  )
+
+  it.each<TranslationInput>([
+    {
+      fromLanguage: Languages.de,
+      toLanguage: Languages.fi,
+      term: 'hello',
+    },
+  ])(
+    'handles response for translation request with incorrect word (e.g. $fromLanguage->$toLanguage with "$term")',
+    async input => {
+      const { data, error } = await translate(input)
       expect(data).toMatchSnapshot()
       expect(error).toBeUndefined()
     },
   )
 
-  it.each<Data>([
-    { fromLang: 'asdf' as any, toLang: Languages.de, term: 'Begriff' },
-    { fromLang: Languages.de, toLang: 'asdf' as any, term: 'Begriff' },
+  it.each<TranslationInput>([
+    { fromLanguage: 'asdf' as any, toLanguage: Languages.de, term: 'Begriff' },
+    { fromLanguage: Languages.de, toLanguage: 'asdf' as any, term: 'Begriff' },
   ])(
-    'return error for $fromLang->$toLang translations',
-    async ({ fromLang, toLang, term }) => {
-      const { data, error } = await translate({ fromLang, toLang, term })
+    'return error for $fromLanguage->$toLanguage translations',
+    async ({ fromLanguage, toLanguage, term }) => {
+      const { data, error } = await translate({
+        fromLanguage,
+        toLanguage,
+        term,
+      })
       expect(data).toBeUndefined()
       expect(error).toBeInstanceOf(Error)
       expect(error?.message).toBe(
-        `Either ${fromLang} or ${toLang} value is not supported!`,
+        `The language ${fromLanguage} or ${toLanguage} is not supported!`,
       )
     },
   )

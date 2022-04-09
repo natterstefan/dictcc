@@ -1,28 +1,33 @@
-import { TranslationInput } from './types'
+import { TextMetaResult, Translation } from './types'
 
-const removeBrackets = (text: string) => text.replace(/\[|\]|\{|\}/g, '')
+/**
+ * List of availabe brackets on dict.cc:
+ * @see https://defr.contribute.dict.cc/guidelines/
+ */
+export const getTextMeta = (text: string): TextMetaResult => {
+  const abbreviations = Array.from(text.matchAll(/<(.*?)>/g), m => m[1])
+  const comments = Array.from(text.matchAll(/\[(.*?)\]/g), m => m[1])
+  const optionalData = Array.from(text.matchAll(/\((.*?)\)/g), m => m[1])
+  const wordClassDefinitions = Array.from(
+    text.matchAll(/\{(.*?)\}/g),
+    m => m[1],
+  )
 
-export const getTextMeta = (text: string) =>
-  text
-    .match(/\[.+\]|\{.+\}/g)
-    ?.map(t => {
-      if (t.includes('] [')) {
-        return t.split('] [').map(e => removeBrackets(e))
-      }
-      return removeBrackets(t)
-    })
-    .flat()
+  return { abbreviations, comments, optionalData, wordClassDefinitions }
+}
 
+/**
+ * List of availabe brackets on dict.cc:
+ * @see https://defr.contribute.dict.cc/guidelines/
+ */
 export const getTranslatedText = (text: string) =>
   text
-    .replace(/\d/g, '')
-    .replace(/\[.+\]/g, '')
-    .replace(/\{.+\}/g, '')
+    // remove any number and content in brackets and the brackets as well
+    .replace(/\d|\[.+\]|<.+>|\{.+\}|\(.+\)/g, '')
     .trim()
 
-export const getDictccUrl = ({ fromLang, toLang, term }: TranslationInput) => {
-  const url = new URL(`https://${fromLang}-${toLang}.dict.cc`)
-  url.searchParams.set('s', term)
-
-  return url.href
-}
+export const prepareData = (from: Translation[], to: Translation[]) =>
+  from.map((element, index) => ({
+    translateFrom: element,
+    translateTo: to[index],
+  }))
