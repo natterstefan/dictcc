@@ -19,8 +19,7 @@ export const createDictccUrl = ({
   return url.href
 }
 
-export const getHtmlString = async (input: TranslationInput) =>
-  (await fetch(createDictccUrl(input))).text()
+export const getHtmlString = async (url: string) => (await fetch(url)).text()
 
 /**
  * The result pages define two JavaScript variables containing the translation

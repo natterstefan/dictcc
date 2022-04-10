@@ -3,30 +3,29 @@ import {
   getHtmlString,
   getTranslationsColumns,
   getTranslationsArray,
+  createDictccUrl,
 } from './parser'
 import { TranslationInput, TranslationResult } from './types'
 import { prepareData } from './utils'
 
-export default async (
-  input: TranslationInput,
-): Promise<{
-  data: TranslationResult[] | undefined
-  error: Error | undefined
-}> => {
+export default async (input: TranslationInput): Promise<TranslationResult> => {
   const { sourceLanguage, targetLanguage, term } = input
 
   // this should ideally never happen as the input is typed.
   if (!Languages[sourceLanguage] || !Languages[targetLanguage]) {
     return {
       data: undefined,
+      url: undefined,
       error: new Error(
         `The language ${sourceLanguage} or ${targetLanguage} is not supported!`,
       ),
     }
   }
 
+  const url = createDictccUrl(input)
+
   try {
-    const body = await getHtmlString(input)
+    const body = await getHtmlString(url)
     const translations = getTranslationsArray(body)
 
     /**
@@ -35,6 +34,7 @@ export default async (
     if (!translations[0] || !translations[1]) {
       return {
         data: [],
+        url,
         error: undefined,
       }
     }
@@ -55,12 +55,14 @@ export default async (
 
     return {
       data,
+      url,
       error: undefined,
     }
   } catch (error) {
     if (error instanceof Error) {
       return {
         data: undefined,
+        url,
         error,
       }
     }
@@ -68,6 +70,7 @@ export default async (
 
   return {
     data: undefined,
+    url,
     error: new Error('Unknown error'),
   }
 }

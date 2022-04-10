@@ -9,13 +9,19 @@ export type TextMetaResult = {
 
 export type Translation = { text: string; meta: TextMetaResult }
 
-export type TranslationResult = {
-  translateFrom: Translation
-  translateTo: Translation
-}
-
 export type TranslationInput = {
   sourceLanguage: Languages
   targetLanguage: Languages
   term: string
+}
+
+export type Translations = {
+  sourceTranslation: Translation
+  targetTranslation: Translation
+}
+
+export type TranslationResult = {
+  data: Translations[] | undefined
+  error: Error | undefined
+  url: string | undefined
 }

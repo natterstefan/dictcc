@@ -1,12 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`dictcc handles response for translation request with incorrect word (e.g. de->fi with "hello") 1`] = `Array []`;
+exports[`dictcc handles response for translation request with incorrect word (e.g. de->fi with "hello") 1`] = `
+Object {
+  "data": Array [],
+  "error": undefined,
+  "url": "https://defi.dict.cc/?s=hello",
+}
+`;
 
 exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
 Object {
   "data": Array [
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "Abk.",
@@ -19,7 +25,7 @@ Object {
         },
         "text": "Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "abbr.",
@@ -32,7 +38,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -43,7 +49,7 @@ Object {
         },
         "text": "Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -54,7 +60,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -65,7 +71,7 @@ Object {
         },
         "text": "Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -76,7 +82,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -89,7 +95,7 @@ Object {
         },
         "text": "Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -102,7 +108,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -113,7 +119,7 @@ Object {
         },
         "text": "Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -124,7 +130,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -135,7 +141,7 @@ Object {
         },
         "text": "Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -148,7 +154,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -159,7 +165,7 @@ Object {
         },
         "text": "Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -170,7 +176,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -181,7 +187,7 @@ Object {
         },
         "text": "Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -192,7 +198,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -203,7 +209,7 @@ Object {
         },
         "text": "Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -214,7 +220,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -225,7 +231,7 @@ Object {
         },
         "text": "Abkürzung  für",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -236,7 +242,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -247,7 +253,7 @@ Object {
         },
         "text": "Abkürzung  von",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -258,7 +264,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -269,7 +275,7 @@ Object {
         },
         "text": "britische Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -280,7 +286,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -291,7 +297,7 @@ Object {
         },
         "text": "postalische Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -302,7 +308,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -313,7 +319,7 @@ Object {
         },
         "text": "wissenschaftliche Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -324,7 +330,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -333,7 +339,7 @@ Object {
         },
         "text": "eine Abkürzung nehmen",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -344,7 +350,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -355,7 +361,7 @@ Object {
         },
         "text": "wieder eine neue Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "YAA",
@@ -368,7 +374,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -377,7 +383,7 @@ Object {
         },
         "text": "Schon wieder so eine blöde Abkürzung!",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "YABA",
@@ -390,7 +396,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -399,7 +405,7 @@ Object {
         },
         "text": "Die Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -412,7 +418,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -421,7 +427,7 @@ Object {
         },
         "text": "Mrs. Todds Abkürzung",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -443,7 +449,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
 Object {
   "data": Array [
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -452,7 +458,7 @@ Object {
         },
         "text": "jd. begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -463,7 +469,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -472,7 +478,7 @@ Object {
         },
         "text": "jd. begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -485,7 +491,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -494,7 +500,7 @@ Object {
         },
         "text": "jd. begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -505,7 +511,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -516,7 +522,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -527,7 +533,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -540,7 +546,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -551,7 +557,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -564,7 +570,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -575,7 +581,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -588,7 +594,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -601,7 +607,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -614,7 +620,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -625,7 +631,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -636,7 +642,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -649,7 +655,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -662,7 +668,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -675,7 +681,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -688,7 +694,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -699,7 +705,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -710,7 +716,7 @@ Object {
         },
         "text": "abgeleiteter Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -721,7 +727,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -732,7 +738,7 @@ Object {
         },
         "text": "absoluter Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -743,7 +749,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -754,7 +760,7 @@ Object {
         },
         "text": "abstrakter Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -765,7 +771,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -776,7 +782,7 @@ Object {
         },
         "text": "abstrakter Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -787,7 +793,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -798,7 +804,7 @@ Object {
         },
         "text": "angeborener Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -809,7 +815,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -820,7 +826,7 @@ Object {
         },
         "text": "Begriff  Monotheismus",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -831,7 +837,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -842,7 +848,7 @@ Object {
         },
         "text": "dehnbarer Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -855,7 +861,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -866,7 +872,7 @@ Object {
         },
         "text": "dehnbarer Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -877,7 +883,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -888,7 +894,7 @@ Object {
         },
         "text": "dehnbarer Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -899,7 +905,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -910,7 +916,7 @@ Object {
         },
         "text": "dehnbarer Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -921,7 +927,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -932,7 +938,7 @@ Object {
         },
         "text": "empirischer Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -943,7 +949,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -956,7 +962,7 @@ Object {
         },
         "text": "fachsprachlicher Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -967,7 +973,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -978,7 +984,7 @@ Object {
         },
         "text": "fester Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -991,7 +997,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1002,7 +1008,7 @@ Object {
         },
         "text": "feststehender Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1013,7 +1019,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1024,7 +1030,7 @@ Object {
         },
         "text": "Form-Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1035,7 +1041,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1046,7 +1052,7 @@ Object {
         },
         "text": "geläufiger Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1057,7 +1063,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1068,7 +1074,7 @@ Object {
         },
         "text": "geschützter Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1079,7 +1085,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1090,7 +1096,7 @@ Object {
         },
         "text": "landwirtschaftlicher Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1101,7 +1107,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1112,7 +1118,7 @@ Object {
         },
         "text": "literarischer Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1123,7 +1129,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1134,7 +1140,7 @@ Object {
         },
         "text": "medizinischer Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1145,7 +1151,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1156,7 +1162,7 @@ Object {
         },
         "text": "mehrdeutiger Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1167,7 +1173,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -1180,7 +1186,7 @@ Object {
         },
         "text": "Nihilismus-Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1191,7 +1197,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1202,7 +1208,7 @@ Object {
         },
         "text": "NS-Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1213,7 +1219,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1224,7 +1230,7 @@ Object {
         },
         "text": "relativer Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1235,7 +1241,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1246,7 +1252,7 @@ Object {
         },
         "text": "schillernder Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1257,7 +1263,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1268,7 +1274,7 @@ Object {
         },
         "text": "stehender Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1279,7 +1285,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1290,7 +1296,7 @@ Object {
         },
         "text": "üblicher Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1301,7 +1307,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1312,7 +1318,7 @@ Object {
         },
         "text": "umfassender Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1323,7 +1329,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1334,7 +1340,7 @@ Object {
         },
         "text": "umgangssprachlicher Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1345,7 +1351,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1356,7 +1362,7 @@ Object {
         },
         "text": "umstrittener Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1367,7 +1373,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1378,7 +1384,7 @@ Object {
         },
         "text": "veralteter Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1389,7 +1395,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "VB",
@@ -1404,7 +1410,7 @@ Object {
         },
         "text": "verwandter Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "RT",
@@ -1419,7 +1425,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1428,7 +1434,7 @@ Object {
         },
         "text": "langsam von Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1441,7 +1447,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1450,7 +1456,7 @@ Object {
         },
         "text": "langsam von Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1463,7 +1469,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1472,7 +1478,7 @@ Object {
         },
         "text": "langsam von Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1485,7 +1491,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -1496,7 +1502,7 @@ Object {
         },
         "text": "langsam von Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1509,7 +1515,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -1521,7 +1527,7 @@ Object {
         },
         "text": "langsam von Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -1537,7 +1543,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1546,7 +1552,7 @@ Object {
         },
         "text": "schwer von Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1559,7 +1565,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1568,7 +1574,7 @@ Object {
         },
         "text": "schwer von Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -1592,7 +1598,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
 Object {
   "data": Array [
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "österr.",
@@ -1603,7 +1609,7 @@ Object {
         },
         "text": "österreichisch",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "Aus.",
@@ -1618,7 +1624,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -1631,7 +1637,7 @@ Object {
         },
         "text": "Österreichisch",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1642,7 +1648,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1651,7 +1657,7 @@ Object {
         },
         "text": "alt-österreichisch",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1664,7 +1670,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1673,7 +1679,7 @@ Object {
         },
         "text": "böhmisch-österreichisch",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1686,7 +1692,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1695,7 +1701,7 @@ Object {
         },
         "text": "deutsch-österreichisch",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1708,7 +1714,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1717,7 +1723,7 @@ Object {
         },
         "text": "österreichisch-italienisch",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1730,7 +1736,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -1741,7 +1747,7 @@ Object {
         },
         "text": "österreichisch-ungarisch",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -1756,7 +1762,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1767,7 +1773,7 @@ Object {
         },
         "text": "Bairisch-Österreichisch",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1778,7 +1784,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1789,7 +1795,7 @@ Object {
         },
         "text": "Österreichisch-Schlesien",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1800,7 +1806,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1811,7 +1817,7 @@ Object {
         },
         "text": "österreichisch-deutsche Grenze",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1822,7 +1828,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1833,7 +1839,7 @@ Object {
         },
         "text": "österreichisch-italienische Grenze",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1844,7 +1850,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1855,7 +1861,7 @@ Object {
         },
         "text": "österreichisch-slowenische Grenze",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1866,7 +1872,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1877,7 +1883,7 @@ Object {
         },
         "text": "österreichisch-tschechische Grenze",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1888,7 +1894,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1899,7 +1905,7 @@ Object {
         },
         "text": "österreichisch-tschechische Grenze",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1910,7 +1916,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1921,7 +1927,7 @@ Object {
         },
         "text": "österreichisch-ungarische Doppelmonarchie",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1932,7 +1938,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1943,7 +1949,7 @@ Object {
         },
         "text": "österreichisch-ungarische Grenze",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1954,7 +1960,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1965,7 +1971,7 @@ Object {
         },
         "text": "österreichisch-ungarische Monarchie",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -1976,7 +1982,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "k. u. k.",
@@ -1989,7 +1995,7 @@ Object {
         },
         "text": "Österreichisch-Ungarische Monarchie",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2000,7 +2006,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2011,7 +2017,7 @@ Object {
         },
         "text": "Österreichisch-Ungarischer Ausgleich",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2033,7 +2039,7 @@ exports[`dictcc returns de->es translations for the term "Begriff" 1`] = `
 Object {
   "data": Array [
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2044,7 +2050,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2057,7 +2063,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2068,7 +2074,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2090,7 +2096,7 @@ exports[`dictcc returns de->fr translations for the term "Begriff" 1`] = `
 Object {
   "data": Array [
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2103,7 +2109,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2116,7 +2122,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2129,7 +2135,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2142,7 +2148,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2156,7 +2162,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2169,7 +2175,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2182,7 +2188,7 @@ Object {
         },
         "text": "schwer von Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2195,7 +2201,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2206,7 +2212,7 @@ Object {
         },
         "text": "schwer von Begriff sein",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2221,7 +2227,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2230,7 +2236,7 @@ Object {
         },
         "text": "im Begriff sein, etw. zu tun",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2252,7 +2258,7 @@ exports[`dictcc returns de->ro translations for the term "Begriff" 1`] = `
 Object {
   "data": Array [
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2263,7 +2269,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2276,7 +2282,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2287,7 +2293,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2300,7 +2306,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2311,7 +2317,7 @@ Object {
         },
         "text": "Begriff",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2324,7 +2330,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2333,7 +2339,7 @@ Object {
         },
         "text": "Du bist schwer von Begriff.",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2344,7 +2350,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2353,7 +2359,7 @@ Object {
         },
         "text": "Du bist schwer von Begriff.",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2364,7 +2370,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2373,7 +2379,7 @@ Object {
         },
         "text": "im Begriff sein, etw. zu tun",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2393,7 +2399,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
 Object {
   "data": Array [
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2406,7 +2412,7 @@ Object {
         },
         "text": "Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2417,7 +2423,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "Tue., Tu.",
@@ -2428,7 +2434,7 @@ Object {
         },
         "text": "Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "Di., Die., Dienst.",
@@ -2443,7 +2449,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2454,7 +2460,7 @@ Object {
         },
         "text": "by Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2467,7 +2473,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2476,7 +2482,7 @@ Object {
         },
         "text": "Fat Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2492,7 +2498,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2501,7 +2507,7 @@ Object {
         },
         "text": "next Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2514,7 +2520,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2525,7 +2531,7 @@ Object {
         },
         "text": "Pancake Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2541,7 +2547,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2552,7 +2558,7 @@ Object {
         },
         "text": "Pancake Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2565,7 +2571,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2574,7 +2580,7 @@ Object {
         },
         "text": "Shrove Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2590,7 +2596,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2599,7 +2605,7 @@ Object {
         },
         "text": "Shrove Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2612,7 +2618,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2621,7 +2627,7 @@ Object {
         },
         "text": "Shrove Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2634,7 +2640,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2645,7 +2651,7 @@ Object {
         },
         "text": "Super Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2660,7 +2666,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2669,7 +2675,7 @@ Object {
         },
         "text": "Tuesday afternoon",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2682,7 +2688,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2691,7 +2697,7 @@ Object {
         },
         "text": "Tuesday evening",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2704,7 +2710,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2713,7 +2719,7 @@ Object {
         },
         "text": "Tuesday morning",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2726,7 +2732,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2735,7 +2741,7 @@ Object {
         },
         "text": "Tuesday morning",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2748,7 +2754,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2757,7 +2763,7 @@ Object {
         },
         "text": "Tuesday night",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2770,7 +2776,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2779,7 +2785,7 @@ Object {
         },
         "text": "Tuesday night",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2792,7 +2798,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2801,7 +2807,7 @@ Object {
         },
         "text": "Tuesday's edition",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2814,7 +2820,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2823,7 +2829,7 @@ Object {
         },
         "text": "Tuesday's edition",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2836,7 +2842,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2845,7 +2851,7 @@ Object {
         },
         "text": "Whit Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2858,7 +2864,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2871,7 +2877,7 @@ Object {
         },
         "text": "Tuesday afternoons",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2882,7 +2888,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2896,7 +2902,7 @@ Object {
         },
         "text": "on Tuesday week",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2907,7 +2913,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2916,7 +2922,7 @@ Object {
         },
         "text": "to start tomorrow, Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2927,7 +2933,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2936,7 +2942,7 @@ Object {
         },
         "text": "Tuesday at noon",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2949,7 +2955,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -2962,7 +2968,7 @@ Object {
         },
         "text": "a week from Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2973,7 +2979,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2982,7 +2988,7 @@ Object {
         },
         "text": "Thursday before Shrove Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -2995,7 +3001,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3004,7 +3010,7 @@ Object {
         },
         "text": "I can't do Tuesday, but I can do Wednesday.",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3015,7 +3021,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3024,7 +3030,7 @@ Object {
         },
         "text": "on the second Tuesday of each month",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3035,7 +3041,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3046,7 +3052,7 @@ Object {
         },
         "text": "The match will be made up  Tuesday.",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3060,7 +3066,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "MTWHFSU, MTWRFSU, MTWTFSS",
@@ -3071,7 +3077,7 @@ Object {
         },
         "text": "Monday Tuesday Wednesday Thursday Friday Saturday Sunday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "MDMDFSS",
@@ -3084,7 +3090,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3095,7 +3101,7 @@ Object {
         },
         "text": "Fat Tuesday",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3115,7 +3121,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
 Object {
   "data": Array [
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3128,7 +3134,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3139,7 +3145,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3148,7 +3154,7 @@ Object {
         },
         "text": "to term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3159,7 +3165,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3168,7 +3174,7 @@ Object {
         },
         "text": "to term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3179,7 +3185,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3188,7 +3194,7 @@ Object {
         },
         "text": "to term sth.",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3201,7 +3207,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3210,7 +3216,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3223,7 +3229,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3234,7 +3240,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3247,7 +3253,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3256,7 +3262,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3269,7 +3275,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3280,7 +3286,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3293,7 +3299,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3302,7 +3308,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3315,7 +3321,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3324,7 +3330,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3337,7 +3343,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3346,7 +3352,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3359,7 +3365,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3368,7 +3374,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3381,7 +3387,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3392,7 +3398,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3405,7 +3411,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3416,7 +3422,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3429,7 +3435,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3440,7 +3446,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3453,7 +3459,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3464,7 +3470,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3477,7 +3483,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3486,7 +3492,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3499,7 +3505,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3510,7 +3516,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3523,7 +3529,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3534,7 +3540,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3547,7 +3553,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3558,7 +3564,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3573,7 +3579,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3584,7 +3590,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3597,7 +3603,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3608,7 +3614,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3621,7 +3627,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3630,7 +3636,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3643,7 +3649,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3652,7 +3658,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3665,7 +3671,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3674,7 +3680,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3689,7 +3695,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3698,7 +3704,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3711,7 +3717,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3720,7 +3726,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3733,7 +3739,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3742,7 +3748,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3757,7 +3763,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3766,7 +3772,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3781,7 +3787,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3792,7 +3798,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3805,7 +3811,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3816,7 +3822,7 @@ Object {
         },
         "text": "term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3831,7 +3837,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3844,7 +3850,7 @@ Object {
         },
         "text": "... at term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3857,7 +3863,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3868,7 +3874,7 @@ Object {
         },
         "text": "fixed-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3879,7 +3885,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3890,7 +3896,7 @@ Object {
         },
         "text": "fixed-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -3903,7 +3909,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3914,7 +3920,7 @@ Object {
         },
         "text": "intermediate-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3925,7 +3931,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3936,7 +3942,7 @@ Object {
         },
         "text": "long term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3947,7 +3953,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3958,7 +3964,7 @@ Object {
         },
         "text": "long-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3969,7 +3975,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3980,7 +3986,7 @@ Object {
         },
         "text": "long-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -3991,7 +3997,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4002,7 +4008,7 @@ Object {
         },
         "text": "long-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4013,7 +4019,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4024,7 +4030,7 @@ Object {
         },
         "text": "long-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4035,7 +4041,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -4048,7 +4054,7 @@ Object {
         },
         "text": "long-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4059,7 +4065,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4070,7 +4076,7 @@ Object {
         },
         "text": "longer-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4081,7 +4087,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4092,7 +4098,7 @@ Object {
         },
         "text": "medium-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4103,7 +4109,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4114,7 +4120,7 @@ Object {
         },
         "text": "medium-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -4127,7 +4133,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4138,7 +4144,7 @@ Object {
         },
         "text": "mid-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4149,7 +4155,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4160,7 +4166,7 @@ Object {
         },
         "text": "middle-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4171,7 +4177,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4182,7 +4188,7 @@ Object {
         },
         "text": "near-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4193,7 +4199,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4204,7 +4210,7 @@ Object {
         },
         "text": "near-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4215,7 +4221,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -4229,7 +4235,7 @@ Object {
         },
         "text": "near-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -4242,7 +4248,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -4255,7 +4261,7 @@ Object {
         },
         "text": "near-term",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -4278,7 +4284,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
 Object {
   "data": Array [
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4289,7 +4295,7 @@ Object {
         },
         "text": "terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -4304,7 +4310,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -4317,7 +4323,7 @@ Object {
         },
         "text": "terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4330,7 +4336,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -4343,7 +4349,7 @@ Object {
         },
         "text": "terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4356,7 +4362,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4367,7 +4373,7 @@ Object {
         },
         "text": "à terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4378,7 +4384,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4389,7 +4395,7 @@ Object {
         },
         "text": "à terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4400,7 +4406,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4411,7 +4417,7 @@ Object {
         },
         "text": "au terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4422,7 +4428,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4433,7 +4439,7 @@ Object {
         },
         "text": "avant terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4444,7 +4450,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4455,7 +4461,7 @@ Object {
         },
         "text": "terme  d'affection",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4468,7 +4474,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4479,7 +4485,7 @@ Object {
         },
         "text": "terme  générique",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4492,7 +4498,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4503,7 +4509,7 @@ Object {
         },
         "text": "terme  générique",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4516,7 +4522,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4527,7 +4533,7 @@ Object {
         },
         "text": "terme  insultant",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4540,7 +4546,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4551,7 +4557,7 @@ Object {
         },
         "text": "terme  technique",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4564,7 +4570,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4575,7 +4581,7 @@ Object {
         },
         "text": "terme  technique",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4588,7 +4594,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4599,7 +4605,7 @@ Object {
         },
         "text": "à court terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4610,7 +4616,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4621,7 +4627,7 @@ Object {
         },
         "text": "à court terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4632,7 +4638,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4644,7 +4650,7 @@ Object {
         },
         "text": "à long terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4655,7 +4661,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4666,7 +4672,7 @@ Object {
         },
         "text": "à long terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4677,7 +4683,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4689,7 +4695,7 @@ Object {
         },
         "text": "à moyen terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4700,7 +4706,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4711,7 +4717,7 @@ Object {
         },
         "text": "au terme de qc.",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4722,7 +4728,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4733,7 +4739,7 @@ Object {
         },
         "text": "au terme de qc.",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4744,7 +4750,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4755,7 +4761,7 @@ Object {
         },
         "text": "mettre un terme à qc.",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4766,7 +4772,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4777,7 +4783,7 @@ Object {
         },
         "text": "mettre un terme à qc.",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
@@ -4791,7 +4797,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "MCT",
@@ -4804,7 +4810,7 @@ Object {
         },
         "text": "mémoire  à court terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4817,7 +4823,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [
             "MLT",
@@ -4830,7 +4836,7 @@ Object {
         },
         "text": "mémoire  à long terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4843,7 +4849,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4854,7 +4860,7 @@ Object {
         },
         "text": "utilisation  à long terme",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4867,7 +4873,7 @@ Object {
       },
     },
     Object {
-      "translateFrom": Object {
+      "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],
@@ -4878,7 +4884,7 @@ Object {
         },
         "text": "mettre un terme à la récession",
       },
-      "translateTo": Object {
+      "targetTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [],

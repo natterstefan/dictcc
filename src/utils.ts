@@ -1,4 +1,4 @@
-import { TextMetaResult, Translation } from './types'
+import { TextMetaResult, Translation, Translations } from './types'
 
 /**
  * List of availabe brackets on dict.cc:
@@ -26,8 +26,11 @@ export const getTranslatedText = (text: string) =>
     .replace(/\d|\[.+\]|<.+>|\{.+\}|\(.+\)/g, '')
     .trim()
 
-export const prepareData = (from: Translation[], to: Translation[]) =>
+export const prepareData = (
+  from: Translation[],
+  to: Translation[],
+): Translations[] =>
   from.map((element, index) => ({
-    translateFrom: element,
-    translateTo: to[index],
+    sourceTranslation: element,
+    targetTranslation: to[index],
   }))

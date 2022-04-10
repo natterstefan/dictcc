@@ -1,4 +1,3 @@
-import { createDictccUrl } from '@/parser'
 import { TranslationInput } from '@/types'
 
 import translate, { Languages } from '..'
@@ -57,8 +56,7 @@ describe('dictcc', () => {
   ])(
     'returns $sourceLanguage->$targetLanguage translations for the term "$term"',
     async input => {
-      const { data, error } = await translate(input)
-      expect({ url: createDictccUrl(input), data, error }).toMatchSnapshot()
+      expect(await translate(input)).toMatchSnapshot()
     },
   )
 
@@ -71,9 +69,7 @@ describe('dictcc', () => {
   ])(
     'handles response for translation request with incorrect word (e.g. $sourceLanguage->$targetLanguage with "$term")',
     async input => {
-      const { data, error } = await translate(input)
-      expect(data).toMatchSnapshot()
-      expect(error).toBeUndefined()
+      expect(await translate(input)).toMatchSnapshot()
     },
   )
 
