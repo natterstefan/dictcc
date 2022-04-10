@@ -31,7 +31,7 @@ yarn add dictcc
 import translate, { Languages } from 'dictcc'
 
 const getTranslation = async () => {
-  const { data, error } = await translate({
+  const { data, error, url } = await translate({
     sourceLanguage: Languages.en,
     targetLanguage: Languages.de,
     term: 'home',
@@ -46,7 +46,7 @@ A result looks something like this:
 ```json
 [
   {
-    "translateFrom": {
+    "sourceTranslation": {
       "text": "home",
       "meta": {
         "abbreviations": [],
@@ -55,7 +55,7 @@ A result looks something like this:
         "wordClassDefinitions": ["adv"]
       }
     },
-    "translateTo": {
+    "targetTranslation": {
       "text": "daheim",
       "meta": {
         "abbreviations": [],
