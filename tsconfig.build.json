@@ -4,6 +4,6 @@
   "exclude": ["node_modules", "**/__tests__"],
   "compilerOptions": {
     "noEmit": false,
-    "declaration": false
+    "declaration": true
   }
 }

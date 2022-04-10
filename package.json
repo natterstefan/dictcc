@@ -5,17 +5,15 @@
   "author": "Stefan Natter (https://natterstefan.me/)",
   "license": "MIT",
   "scripts": {
-    "build": "npm run clean && npm run compile-cjs && npm run compile-esm && npm run compile-types",
+    "build": "npm run clean && npm run compile-cjs && npm run compile-esm",
     "clean": "rimraf ./dist",
     "compile-cjs": "tsc -p tsconfig.build.json --module commonjs --outDir dist/cjs",
     "compile-esm": "tsc -p tsconfig.build.json --module es2015 --outDir dist/esm",
-    "compile-types": "tsc -p tsconfig.build.json --declaration --emitDeclarationOnly --outDir dist/types",
     "prepare": "is-ci || husky install",
     "lint": "tsc && eslint --cache \".\"",
     "test": "jest"
   },
   "main": "./dist/cjs/index.js",
-  "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/esm/index.js",
