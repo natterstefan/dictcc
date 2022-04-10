@@ -22,9 +22,16 @@ module.exports = {
     [
       '@semantic-release/git',
       {
-        assets: ['dist', 'LICENSE', 'CHANGELOG.md', 'README.md'],
-        // eslint-disable-next-line no-template-curly-in-string
-        message: 'chore: Release ${nextRelease.version} [skip ci]',
+        assets: [
+          'dist',
+          'LICENSE',
+          'CHANGELOG.md',
+          'README.md',
+          'package.json',
+        ],
+        message:
+          // eslint-disable-next-line no-template-curly-in-string
+          'chore: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },
     ],
   ],
