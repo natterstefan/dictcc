@@ -1,5 +1,13 @@
 # dictcc Changelog
 
+## [1.2.0](https://github.com/natterstefan/dictcc/compare/1.1.0...1.2.0) (2022-04-10)
+
+
+### Features
+
+* added url to TranslationResult and renamed data properties ([fee6a06](https://github.com/natterstefan/dictcc/commit/fee6a06eb7bab3d50d0da463ed5fdb48a3d3bc98))
+* export all available types ([7b29e0d](https://github.com/natterstefan/dictcc/commit/7b29e0dcf54446151d0c24165cce5f1e40351bff))
+
 ## [1.1.0](https://github.com/natterstefan/dictcc/compare/1.0.0...1.1.0) (2022-04-09)
 
 
