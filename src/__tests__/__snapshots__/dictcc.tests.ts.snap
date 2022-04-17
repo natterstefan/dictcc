@@ -4756,6 +4756,28 @@ Object {
           "comments": Array [],
           "optionalData": Array [],
           "wordClassDefinitions": Array [
+            "adj",
+          ],
+        },
+        "text": "Unverified né à terme",
+      },
+      "targetTranslation": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "termingeboren",
+      },
+    },
+    Object {
+      "sourceTranslation": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
             "verbe",
           ],
         },
