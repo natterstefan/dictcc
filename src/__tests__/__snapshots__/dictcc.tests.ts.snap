@@ -3391,30 +3391,6 @@ Object {
         "meta": Object {
           "abbreviations": Array [],
           "comments": Array [
-            "fixed date",
-          ],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "term",
-      },
-      "targetTranslation": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "m",
-          ],
-        },
-        "text": "Termin",
-      },
-    },
-    Object {
-      "sourceTranslation": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [
             "designation",
           ],
           "optionalData": Array [],
@@ -3432,6 +3408,30 @@ Object {
           ],
         },
         "text": "Bezeichnung",
+      },
+    },
+    Object {
+      "sourceTranslation": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [
+            "fixed date",
+          ],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "term",
+      },
+      "targetTranslation": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "m",
+          ],
+        },
+        "text": "Termin",
       },
     },
     Object {
@@ -4759,7 +4759,7 @@ Object {
             "adj",
           ],
         },
-        "text": "Unverified né à terme",
+        "text": "né à terme",
       },
       "targetTranslation": Object {
         "meta": Object {
