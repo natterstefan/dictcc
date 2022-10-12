@@ -2086,6 +2086,33 @@ Object {
         "text": "concepto",
       },
     },
+    Object {
+      "sourceTranslation": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [
+            "ugs.",
+          ],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "schwer von Begriff sein",
+      },
+      "targetTranslation": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [
+            "col.",
+            "locución",
+          ],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "verb",
+          ],
+        },
+        "text": "Unverified no tener dos dedos de frente",
+      },
+    },
   ],
   "error": undefined,
   "url": "https://dees.dict.cc/?s=Begriff",
@@ -3368,28 +3395,6 @@ Object {
       "sourceTranslation": Object {
         "meta": Object {
           "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [],
-        },
-        "text": "term",
-      },
-      "targetTranslation": Object {
-        "meta": Object {
-          "abbreviations": Array [],
-          "comments": Array [],
-          "optionalData": Array [],
-          "wordClassDefinitions": Array [
-            "f",
-          ],
-        },
-        "text": "Legislaturperiode",
-      },
-    },
-    Object {
-      "sourceTranslation": Object {
-        "meta": Object {
-          "abbreviations": Array [],
           "comments": Array [
             "designation",
           ],
@@ -3408,6 +3413,28 @@ Object {
           ],
         },
         "text": "Bezeichnung",
+      },
+    },
+    Object {
+      "sourceTranslation": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [],
+        },
+        "text": "term",
+      },
+      "targetTranslation": Object {
+        "meta": Object {
+          "abbreviations": Array [],
+          "comments": Array [],
+          "optionalData": Array [],
+          "wordClassDefinitions": Array [
+            "f",
+          ],
+        },
+        "text": "Legislaturperiode",
       },
     },
     Object {
