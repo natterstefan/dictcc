@@ -3737,10 +3737,10 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
           "comments": [],
           "optionalData": [],
           "wordClassDefinitions": [
-            "m",
+            "f",
           ],
         },
-        "text": "Geburtstermin",
+        "text": "Saison",
       },
     },
     {
@@ -3759,10 +3759,10 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
           "comments": [],
           "optionalData": [],
           "wordClassDefinitions": [
-            "f",
+            "m",
           ],
         },
-        "text": "Saison",
+        "text": "Geburtstermin",
       },
     },
     {

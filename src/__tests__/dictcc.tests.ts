@@ -28,6 +28,7 @@ describe('dictcc', () => {
     {
       sourceLanguage: Languages.de,
       targetLanguage: Languages.en,
+      // testing umlauts
       term: 'Abkürzung',
     },
 
