@@ -36,6 +36,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "abbreviation",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1436&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -58,6 +59,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "shortcut",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1497&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -80,6 +82,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "abridgement",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=155967&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -106,6 +109,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "cutoff",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1044483&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -128,6 +132,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "abridgment",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=155968&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -152,6 +157,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "cut",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=755105&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -174,6 +180,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "curtailment",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=155969&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -196,6 +203,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "short cut",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=155970&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -218,6 +226,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "short form",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=346805&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -240,6 +249,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "abbreviation for",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=601571&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -262,6 +272,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "abbreviation of",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=601570&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -284,6 +295,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "British abbreviation",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=201737&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -306,6 +318,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "postal abbreviation",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=824242&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -328,6 +341,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "scientific abbreviation",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1368216&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -348,6 +362,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "to take a shortcut",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=201245&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -372,6 +387,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "yet another acronym",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=143438&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -394,6 +410,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "Yet another bloody acronym!",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1056484&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -416,6 +433,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "Shortcut",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=832244&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -438,6 +456,7 @@ exports[`dictcc returns de->en translations for the term "Abkürzung" 1`] = `
         },
         "text": "Mrs. Todd's Shortcut",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=808388&lang=en_rec_ip&lp=DEEN",
     },
   ],
   "error": undefined,
@@ -467,6 +486,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "sb. understood",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=800786&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -489,6 +509,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "sb. grasped",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=154603&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -509,6 +530,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "sb. comprehended",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=16394&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -531,6 +553,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=16401&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -555,6 +578,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "concept",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=16395&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -579,6 +603,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "notion",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=16397&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -605,6 +630,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "item",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=16396&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -629,6 +655,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "idea",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=16398&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -653,6 +680,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "perception",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=16399&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -679,6 +707,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "apprehension",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=175896&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -703,6 +732,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "conception",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=16400&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -725,6 +755,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "derived term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1213237&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -747,6 +778,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "absolute concept",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=980828&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -769,6 +801,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "abstract concept",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=196921&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -791,6 +824,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "abstract term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=2803&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -813,6 +847,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "innate concept",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1240694&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -835,6 +870,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "concept of monotheism",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1326019&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -859,6 +895,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "elastic concept",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1280446&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -881,6 +918,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "elastic term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=199891&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -903,6 +941,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "loose concept",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1070184&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -925,6 +964,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "malleable phrase",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1388553&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -947,6 +987,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "empirical concept",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1239635&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -971,6 +1012,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "technical term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1297421&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -995,6 +1037,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "byword",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1217318&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1017,6 +1060,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "established term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1317755&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1039,6 +1083,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "concept of form",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1334798&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1061,6 +1106,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "household word",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=352378&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1083,6 +1129,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "protected term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1336958&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1105,6 +1152,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "agricultural term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=258955&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1127,6 +1175,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "literary term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1309152&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1149,6 +1198,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "medical term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=979834&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1171,6 +1221,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "ambiguous concept",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=264878&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1195,6 +1246,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "concept of nihilism",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1432355&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1217,6 +1269,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "Nazi term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1280149&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1239,6 +1292,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "relative term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=284653&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1261,6 +1315,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "iridescent term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=876630&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1283,6 +1338,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "standard term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1156398&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1305,6 +1361,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "commonly used term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=338163&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1327,6 +1384,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "term of wide comprehension",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=200316&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1349,6 +1407,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "colloquial term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=752588&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1371,6 +1430,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "controversial concept",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=311751&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1393,6 +1453,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "archaic term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1222559&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1423,6 +1484,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "related term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=960138&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1445,6 +1507,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "slow of mind",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1374861&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1467,6 +1530,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "slow in the mind",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=259124&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1489,6 +1553,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "slow in the uptake",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=259125&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1513,6 +1578,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "slow-witted",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=633212&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1541,6 +1607,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "slow on the uptake",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1145715&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1563,6 +1630,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "hard of understanding",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=671051&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1587,6 +1655,7 @@ exports[`dictcc returns de->en translations for the term "Begriff" 1`] = `
         },
         "text": "thick as a brick",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=357874&lang=en_rec_ip&lp=DEEN",
     },
   ],
   "error": undefined,
@@ -1622,6 +1691,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austrian",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=154329&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1646,6 +1716,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austrian German",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=839144&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1668,6 +1739,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "old Austrian",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1262735&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1690,6 +1762,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Bohemian-Austrian",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1285617&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1712,6 +1785,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "German-Austrian",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1406034&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1734,6 +1808,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austro-Italian",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1342409&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1760,6 +1835,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austro-Hungarian",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=404606&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1782,6 +1858,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austro-Bavarian",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=706796&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1804,6 +1881,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austrian Silesia",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=847856&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1826,6 +1904,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austro-German border",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=895642&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1848,6 +1927,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austro-Italian border",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=651245&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1870,6 +1950,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austro-Slovenian border",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1299842&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1892,6 +1973,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austrian-Czech border",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1300078&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1914,6 +1996,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austro-Czech border",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1300079&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1936,6 +2019,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austro-Hungarian dual monarchy",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=380854&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1958,6 +2042,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austro-Hungarian border",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1299841&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -1980,6 +2065,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austro-Hungarian monarchy",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=662633&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -2004,6 +2090,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austro-Hungarian Empire",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1170553&lang=en_rec_ip&lp=DEEN",
     },
     {
       "sourceTranslation": {
@@ -2028,6 +2115,7 @@ exports[`dictcc returns de->en translations for the term "österreichisch" 1`] =
         },
         "text": "Austro-Hungarian Compromise",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1367930&lang=en_rec_ip&lp=DEEN",
     },
   ],
   "error": undefined,
@@ -2061,6 +2149,7 @@ exports[`dictcc returns de->es translations for the term "Begriff" 1`] = `
         },
         "text": "término",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=801014&lang=es_rec_ip&lp=DEES",
     },
     {
       "sourceTranslation": {
@@ -2085,6 +2174,7 @@ exports[`dictcc returns de->es translations for the term "Begriff" 1`] = `
         },
         "text": "concepto",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=354739&lang=es_rec_ip&lp=DEES",
     },
     {
       "sourceTranslation": {
@@ -2112,6 +2202,7 @@ exports[`dictcc returns de->es translations for the term "Begriff" 1`] = `
         },
         "text": "Unverified no tener dos dedos de frente",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=2099537&lang=es_rec_ip&lp=DEES",
     },
   ],
   "error": undefined,
@@ -2147,6 +2238,7 @@ exports[`dictcc returns de->fr translations for the term "Begriff" 1`] = `
         },
         "text": "terme",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=258779&lang=fr_rec_ip&lp=DEFR",
     },
     {
       "sourceTranslation": {
@@ -2173,6 +2265,7 @@ exports[`dictcc returns de->fr translations for the term "Begriff" 1`] = `
         },
         "text": "notion",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=413902&lang=fr_rec_ip&lp=DEFR",
     },
     {
       "sourceTranslation": {
@@ -2200,6 +2293,7 @@ exports[`dictcc returns de->fr translations for the term "Begriff" 1`] = `
         },
         "text": "vocable",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1267810&lang=fr_rec_ip&lp=DEFR",
     },
     {
       "sourceTranslation": {
@@ -2226,6 +2320,7 @@ exports[`dictcc returns de->fr translations for the term "Begriff" 1`] = `
         },
         "text": "à l'esprit lent",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1689733&lang=fr_rec_ip&lp=DEFR",
     },
     {
       "sourceTranslation": {
@@ -2252,6 +2347,7 @@ exports[`dictcc returns de->fr translations for the term "Begriff" 1`] = `
         },
         "text": "être long à la détente",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=323120&lang=fr_rec_ip&lp=DEFR",
     },
     {
       "sourceTranslation": {
@@ -2274,6 +2370,7 @@ exports[`dictcc returns de->fr translations for the term "Begriff" 1`] = `
         },
         "text": "s'apprêter à faire qc.",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1687012&lang=fr_rec_ip&lp=DEFR",
     },
   ],
   "error": undefined,
@@ -2307,6 +2404,7 @@ exports[`dictcc returns de->ro translations for the term "Begriff" 1`] = `
         },
         "text": "noțiune",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=498520&lang=ro_rec_ip&lp=DERO",
     },
     {
       "sourceTranslation": {
@@ -2331,6 +2429,7 @@ exports[`dictcc returns de->ro translations for the term "Begriff" 1`] = `
         },
         "text": "termen",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1453259&lang=ro_rec_ip&lp=DERO",
     },
     {
       "sourceTranslation": {
@@ -2355,6 +2454,7 @@ exports[`dictcc returns de->ro translations for the term "Begriff" 1`] = `
         },
         "text": "concept",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=498521&lang=ro_rec_ip&lp=DERO",
     },
     {
       "sourceTranslation": {
@@ -2375,6 +2475,7 @@ exports[`dictcc returns de->ro translations for the term "Begriff" 1`] = `
         },
         "text": "Înțelegi greu.",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=788587&lang=ro_rec_ip&lp=DERO",
     },
     {
       "sourceTranslation": {
@@ -2395,6 +2496,7 @@ exports[`dictcc returns de->ro translations for the term "Begriff" 1`] = `
         },
         "text": "Ești greu de cap.",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=788588&lang=ro_rec_ip&lp=DERO",
     },
     {
       "sourceTranslation": {
@@ -2415,6 +2517,7 @@ exports[`dictcc returns de->ro translations for the term "Begriff" 1`] = `
         },
         "text": "a fi pe punctul de a face ceva",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=556773&lang=ro_rec_ip&lp=DERO",
     },
   ],
   "error": undefined,
@@ -2448,6 +2551,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "dienstäglich",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=804961&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2474,6 +2578,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Dienstag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=27822&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2498,6 +2603,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "bis Dienstag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1384973&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2523,6 +2629,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Faschingsdienstag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=650765&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2545,6 +2652,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "nächsten / kommenden Dienstag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=672451&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2572,6 +2680,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Faschingsdienstag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=927944&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2596,6 +2705,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Fastnachtsdienstag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=923371&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2621,6 +2731,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Faschingsdienstag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=217849&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2643,6 +2754,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Fastnacht",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=42201&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2665,6 +2777,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Fastnachtsdienstag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=42204&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2691,6 +2804,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Super-Dienstag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=810864&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2713,6 +2827,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Dienstagnachmittag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=810845&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2735,6 +2850,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Dienstagabend",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=760279&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2757,6 +2873,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Dienstagmorgen",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=614995&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2779,6 +2896,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Dienstagvormittag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=904354&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2801,6 +2919,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Dienstagnacht",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1374440&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2823,6 +2942,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Nacht  von Dienstag auf Mittwoch",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=877192&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2845,6 +2965,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Dienstagausgabe",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1036754&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2867,6 +2988,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Dienstagsausgabe",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1036753&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2889,6 +3011,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Pfingstdienstag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1045576&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2913,6 +3036,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "dienstagnachmittags",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1374495&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2938,6 +3062,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Dienstag in einer Woche",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=675545&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2958,6 +3083,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "am morgigen Dienstag starten",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=710926&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -2980,6 +3106,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Dienstagmittag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1123161&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3004,6 +3131,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Dienstag in einer Woche",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=675773&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3026,6 +3154,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Weiberfastnacht",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=413354&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3046,6 +3175,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Dienstag kann ich nicht, aber Mittwoch.",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1101997&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3066,6 +3196,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "an jedem zweiten Dienstag des Monats",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=588698&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3091,6 +3222,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Das Spiel wird .",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1325180&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3115,6 +3247,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Montag Dienstag Mittwoch Donnerstag Freitag Samstag Sonntag",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1028694&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3137,6 +3270,7 @@ exports[`dictcc returns en->de translations for the term "Tuesday" 1`] = `
         },
         "text": "Im Haus meines Feindes",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=831070&lang=de_rec_ip&lp=ENDE",
     },
   ],
   "error": undefined,
@@ -3170,6 +3304,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "befristet",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=175462&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3190,6 +3325,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "benennen",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=177761&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3210,6 +3346,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "bezeichnen",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=181774&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3232,6 +3369,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "etw.Akk. nennen",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=272484&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3254,6 +3392,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Begriff",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=16401&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3278,6 +3417,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Zeitdauer",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=339238&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3300,6 +3440,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Semester",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=109030&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3324,6 +3465,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Bedingung",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=15515&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3346,6 +3488,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Ausdruck",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=11743&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3368,6 +3511,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Trimester",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=309649&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3390,6 +3534,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Amtszeit",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=359525&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3414,6 +3559,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Bezeichnung",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=181805&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3436,6 +3582,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Legislaturperiode",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=589419&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3460,6 +3607,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Termin",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=119711&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3484,6 +3632,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Dauer",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=188522&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3508,6 +3657,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Frist",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=222551&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3530,6 +3680,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Fachbegriff",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=41282&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3554,6 +3705,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Laufzeit",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=76028&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3578,6 +3730,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Klausel",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=193502&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3604,6 +3757,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Bestimmung",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=626632&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3628,6 +3782,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Freiheitsstrafe",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=679246&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3652,6 +3807,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Fachausdruck",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=41277&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3674,6 +3830,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Term",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=598211&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3696,6 +3853,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Terminus",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=307954&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3720,6 +3878,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Sitzungsperiode",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=801846&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3742,6 +3901,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Saison",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=595468&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3764,6 +3924,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Geburtstermin",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=726955&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3788,6 +3949,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Spielzeit",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=362179&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3812,30 +3974,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Herme",
       },
-    },
-    {
-      "sourceTranslation": {
-        "meta": {
-          "abbreviations": [],
-          "comments": [
-            "part of a definition, explanation",
-          ],
-          "optionalData": [],
-          "wordClassDefinitions": [],
-        },
-        "text": "term",
-      },
-      "targetTranslation": {
-        "meta": {
-          "abbreviations": [],
-          "comments": [],
-          "optionalData": [],
-          "wordClassDefinitions": [
-            "n",
-          ],
-        },
-        "text": "Begriffselement",
-      },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=971833&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3862,6 +4001,32 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Glied",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1399694&lang=de_rec_ip&lp=ENDE",
+    },
+    {
+      "sourceTranslation": {
+        "meta": {
+          "abbreviations": [],
+          "comments": [
+            "part of a definition, explanation",
+          ],
+          "optionalData": [],
+          "wordClassDefinitions": [],
+        },
+        "text": "term",
+      },
+      "targetTranslation": {
+        "meta": {
+          "abbreviations": [],
+          "comments": [],
+          "optionalData": [],
+          "wordClassDefinitions": [
+            "n",
+          ],
+        },
+        "text": "Begriffselement",
+      },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1180565&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3888,6 +4053,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "... am Termin",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1322319&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3910,6 +4076,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "befristet",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=175457&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3934,6 +4101,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "mit fester Laufzeit",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=267243&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3956,6 +4124,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "mittelfristig",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1061130&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -3978,6 +4147,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "nachhaltig",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=582011&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4000,6 +4170,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "langfristig",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=848985&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4022,6 +4193,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "Langzeit-",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=75703&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4044,6 +4216,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "langzeitig",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=259212&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4066,6 +4239,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "auf lange Dauer angelegt",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=167584&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4090,6 +4264,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "langjährig",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=635091&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4112,6 +4287,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "längerfristig",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=586741&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4134,6 +4310,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "mittelfristig",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=83378&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4158,6 +4335,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "von mittlerer Laufzeit",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=326758&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4180,6 +4358,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "in der Mitte der Laufzeit",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=243007&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4202,6 +4381,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "mittelfristig",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=268549&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4224,6 +4404,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "kurzfristig",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=257718&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4246,6 +4427,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "nahe an der Fälligkeit",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=271780&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4273,6 +4455,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "zeitnah",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1027156&lang=de_rec_ip&lp=ENDE",
     },
     {
       "sourceTranslation": {
@@ -4300,6 +4483,7 @@ exports[`dictcc returns en->de translations for the term "term" 1`] = `
         },
         "text": "nähig",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1422195&lang=de_rec_ip&lp=ENDE",
     },
   ],
   "error": undefined,
@@ -4335,6 +4519,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "Begriff",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=258779&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4361,6 +4546,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "Ende",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1203969&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4387,6 +4573,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "Ausdruck",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1506234&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4409,6 +4596,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "auf Dauer",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1205583&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4431,6 +4619,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "auf Termin",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1204220&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4453,6 +4642,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "nach Ablauf",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1204224&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4475,6 +4665,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "zu früh",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1204221&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4499,6 +4690,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "Kosewort",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1311362&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4523,6 +4715,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "Gattungsbegriff",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1559093&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4547,6 +4740,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "Oberbegriff",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=461404&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4571,6 +4765,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "Schimpfwort",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1315723&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4595,6 +4790,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "Fachausdruck",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1102103&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4619,6 +4815,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "Fachbegriff",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1653207&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4641,6 +4838,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "kurzfristig",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1174909&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4663,6 +4861,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "Kurzzeit-",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1174910&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4686,6 +4885,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "langfristig",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=56361&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4708,6 +4908,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "auf lange Sicht",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1470762&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4731,6 +4932,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "mittelfristig",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1993823&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4753,6 +4955,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "nach etw.Dat.",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1204222&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4775,6 +4978,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "am Ende von etw.Dat.",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1204223&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4797,6 +5001,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "termingeboren",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=2033244&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4819,6 +5024,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "etw.Akk. beenden",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=363766&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4844,6 +5050,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "etw.Dat. Einhalt gebieten",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=363767&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4870,6 +5077,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "Kurzzeitgedächtnis",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1216872&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4896,6 +5104,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "Langzeitgedächtnis",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1216874&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4920,6 +5129,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "Langzeitanwendung",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=1795291&lang=de_rec_ip&lp=FRDE",
     },
     {
       "sourceTranslation": {
@@ -4942,6 +5152,7 @@ exports[`dictcc returns fr->de translations for the term "terme" 1`] = `
         },
         "text": "die Rezession in den Griff bekommen",
       },
+      "targetTranslationAudioUrl": "https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=533167&lang=de_rec_ip&lp=FRDE",
     },
   ],
   "error": undefined,

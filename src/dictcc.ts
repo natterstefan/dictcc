@@ -3,6 +3,8 @@ import {
   getHtmlString,
   getTranslationsColumns,
   getTranslationsArray,
+  getTranslationsIds,
+  getTranslationsAudioUrls,
   createDictccUrl,
 } from './parser'
 import { TranslationInput, TranslationResult } from './types'
@@ -27,6 +29,7 @@ export default async (input: TranslationInput): Promise<TranslationResult> => {
   try {
     const body = await getHtmlString(url)
     const translations = getTranslationsArray(body)
+    const translationsIds = getTranslationsIds(body)
 
     /**
      * There are no translations available for this term in the given languages.
@@ -40,6 +43,11 @@ export default async (input: TranslationInput): Promise<TranslationResult> => {
     }
 
     const { translationsLeft, translationsRight } = getTranslationsColumns(body)
+    const audioUrls = getTranslationsAudioUrls(
+      translationsIds,
+      sourceLanguage,
+      targetLanguage,
+    )
 
     /**
      * Sometimes the from-translation is in the right-column and sometimes
@@ -48,9 +56,9 @@ export default async (input: TranslationInput): Promise<TranslationResult> => {
      */
     let data
     if (translations[0].includes(term)) {
-      data = prepareData(translationsRight, translationsLeft)
+      data = prepareData(translationsRight, translationsLeft, audioUrls)
     } else {
-      data = prepareData(translationsLeft, translationsRight)
+      data = prepareData(translationsLeft, translationsRight, audioUrls)
     }
 
     return {

@@ -19,6 +19,9 @@ export const createDictccUrl = ({
   return url.href
 }
 
+export const getDictccAudioUrl = (translationId: number) =>
+  `https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=${translationId}&lang=de_rec_ip`
+
 export const getHtmlString = async (url: string) => (await fetch(url)).text()
 
 /**
@@ -34,6 +37,20 @@ export const getTranslationsArray = (html: string): (string[] | undefined)[] =>
     html.matchAll(/var c[\d]Arr = new Array\((.*)\);/g),
     m => m[1],
   ).map(language => JSON.parse(`[${language.replaceAll(`\\'`, "'")}]`))
+
+/**
+ * The result pages define two JavaScript variables containing the translation
+ * ids (table rows)
+ *
+ * ATTENTION: parsing these variables from the page can fail anytime, if dict.cc
+ * changes the HTML they render.
+ */
+export const getTranslationsIds = (html: string): string[] =>
+  (
+    Array.from(html.matchAll(/var idArr = new Array\((.*)\);/g), m => m[1]).map(
+      language => JSON.parse(`[${language.replaceAll(`\\'`, "'")}]`),
+    )[0] ?? []
+  ).slice(1)
 
 /**
  * We could use only the results of `getTranslationsArray` to show the
@@ -76,3 +93,13 @@ export const getTranslationsColumns = (html: string) => {
     translationsRight,
   }
 }
+
+export const getTranslationsAudioUrls = (
+  translationsIds: string[],
+  sourceLanguage: string,
+  targetLanguage: string,
+) =>
+  translationsIds.map(
+    translationId =>
+      `https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=${translationId}&lang=${targetLanguage}_rec_ip&lp=${sourceLanguage.toUpperCase()}${targetLanguage.toUpperCase()}`,
+  )
