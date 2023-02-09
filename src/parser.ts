@@ -19,9 +19,6 @@ export const createDictccUrl = ({
   return url.href
 }
 
-export const getDictccAudioUrl = (translationId: number) =>
-  `https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=${translationId}&lang=de_rec_ip`
-
 export const getHtmlString = async (url: string) => (await fetch(url)).text()
 
 /**
@@ -48,7 +45,7 @@ export const getTranslationsArray = (html: string): (string[] | undefined)[] =>
 export const getTranslationsIds = (html: string): string[] =>
   (
     Array.from(html.matchAll(/var idArr = new Array\((.*)\);/g), m => m[1]).map(
-      language => JSON.parse(`[${language.replaceAll(`\\'`, "'")}]`),
+      translationId => JSON.parse(`[${translationId.replaceAll(`\\'`, "'")}]`),
     )[0] ?? []
   ).slice(1)
 
