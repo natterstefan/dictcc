@@ -1,5 +1,17 @@
 # dictcc Changelog
 
+## [1.3.0](https://github.com/natterstefan/dictcc/compare/1.2.0...1.3.0) (2023-02-14)
+
+
+### Features
+
+* added targetTranslation audio url support ([#44](https://github.com/natterstefan/dictcc/issues/44)) ([2847625](https://github.com/natterstefan/dictcc/commit/2847625c52428f8ede6696861b15bf02b851215b))
+
+
+### Bug Fixes
+
+* fixed docs in README ([08bdbae](https://github.com/natterstefan/dictcc/commit/08bdbae39e7a366eff30dec6b46bd265bd1c7766))
+
 ## [1.2.0](https://github.com/natterstefan/dictcc/compare/1.1.0...1.2.0) (2022-04-10)
 
 
