@@ -63,7 +63,8 @@ A result looks something like this:
         "optionalData": [],
         "wordClassDefinitions": []
       }
-    }
+    },
+    "targetTranslationAudioUrl": "https://www.example.com/audio/daheim.mp3"
   }
 ]
 ```
@@ -81,9 +82,12 @@ Thanks goes to these wonderful people
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://natterstefan.me/"><img src="https://avatars.githubusercontent.com/u/1043668?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stefan Natter</b></sub></a><br /><a href="#ideas-natterstefan" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/natterstefan/dictcc/commits?author=natterstefan" title="Code">💻</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://natterstefan.me/"><img src="https://avatars.githubusercontent.com/u/1043668?v=4?s=100" width="100px;" alt="Stefan Natter"/><br /><sub><b>Stefan Natter</b></sub></a><br /><a href="#ideas-natterstefan" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/natterstefan/dictcc/commits?author=natterstefan" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://sjdonado.github.io/"><img src="https://avatars.githubusercontent.com/u/27580836?v=4?s=100" width="100px;" alt="Juan Rodriguez"/><br /><sub><b>Juan Rodriguez</b></sub></a><br /><a href="https://github.com/natterstefan/dictcc/commits?author=sjdonado" title="Code">💻</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->
