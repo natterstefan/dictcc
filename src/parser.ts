@@ -36,6 +36,20 @@ export const getTranslationsArray = (html: string): (string[] | undefined)[] =>
   ).map(language => JSON.parse(`[${language.replaceAll(`\\'`, "'")}]`))
 
 /**
+ * The result pages define two JavaScript variables containing the translation
+ * ids (table rows)
+ *
+ * ATTENTION: parsing these variables from the page can fail anytime, if dict.cc
+ * changes the HTML they render.
+ */
+export const getTranslationsIds = (html: string): string[] =>
+  (
+    Array.from(html.matchAll(/var idArr = new Array\((.*)\);/g), m => m[1]).map(
+      translationId => JSON.parse(`[${translationId.replaceAll(`\\'`, "'")}]`),
+    )[0] ?? []
+  ).slice(1)
+
+/**
  * We could use only the results of `getTranslationsArray` to show the
  * translation of a given term. But the HTML contains more information about
  * the given translated term (e.g. synonyms, etc.).
@@ -76,3 +90,13 @@ export const getTranslationsColumns = (html: string) => {
     translationsRight,
   }
 }
+
+export const getTranslationsAudioUrls = (
+  translationsIds: string[],
+  sourceLanguage: string,
+  targetLanguage: string,
+) =>
+  translationsIds.map(
+    translationId =>
+      `https://audio.dict.cc/speak.audio.v2.php?type=mp3&id=${translationId}&lang=${targetLanguage}_rec_ip&lp=${sourceLanguage.toUpperCase()}${targetLanguage.toUpperCase()}`,
+  )

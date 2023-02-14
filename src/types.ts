@@ -18,6 +18,7 @@ export type TranslationInput = {
 export type Translations = {
   sourceTranslation: Translation
   targetTranslation: Translation
+  targetTranslationAudioUrl: string
 }
 
 export type TranslationResult = {

@@ -29,8 +29,10 @@ export const getTranslatedText = (text: string) =>
 export const prepareData = (
   from: Translation[],
   to: Translation[],
+  audioUrls: string[],
 ): Translations[] =>
   from.map((element, index) => ({
     sourceTranslation: element,
     targetTranslation: to[index],
+    targetTranslationAudioUrl: audioUrls[index],
   }))
